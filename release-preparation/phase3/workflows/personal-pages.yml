@@ -1,0 +1,54 @@
+# FINAL CANDIDATE — inactive here; install only after final release approval.
+name: Personal Astro Pages
+on:
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: Publish the validated artifact to production
+        type: boolean
+        required: true
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: nagi.tw
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24.13.0'
+          cache: npm
+          cache-dependency-path: nagi.tw/package-lock.json
+      - name: Pin verified npm version
+        run: npm install --global npm@11.6.2
+      - run: node --version && npm --version
+      - run: npm ci
+      - run: npm run check
+      - run: npm run build
+      - run: npm run validate
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: nagi.tw/dist
+  deploy:
+    if: inputs.deploy && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Deploy approved artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,80 @@
+---
+const links = [['/#selected-work', 'Work'], ['/#about', 'About'], ['https://notes.nagi.tw/', 'Notes ↗'], ['https://github.com/seraphforge', 'GitHub ↗']];
+const languages = [['zh', '中'], ['en', 'EN'], ['ja', '日']] as const;
+---
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="/">Nagi<span>.tw</span></a>
+    <button class="menu" aria-expanded="false" aria-controls="nav-links">Menu</button>
+    <div class="nav-cluster">
+      <nav id="nav-links" aria-label="Main navigation">
+        {links.map(([href, label]) => <a href={href}>{label}</a>)}
+      </nav>
+      <div class="language-switcher" data-language-switcher role="group" aria-label="Article language">
+        {languages.map(([language, label]) => <button type="button" data-language-select={language} aria-pressed={language === 'zh'}>{label}</button>)}
+      </div>
+    </div>
+  </div>
+</header>
+<script>
+  const menuButton = document.querySelector<HTMLButtonElement>('.menu');
+  const navigation = document.querySelector<HTMLElement>('#nav-links');
+  const languageButtons = [...document.querySelectorAll<HTMLButtonElement>('[data-language-select]')];
+  const languageOrder = ['zh', 'en', 'ja'] as const;
+  type Language = typeof languageOrder[number];
+  menuButton?.addEventListener('click', () => {
+    const open = menuButton.getAttribute('aria-expanded') === 'true';
+    menuButton.setAttribute('aria-expanded', String(!open));
+    navigation?.toggleAttribute('data-open', !open);
+  });
+  function storedLanguage(): Language | undefined {
+    const stored = localStorage.getItem('nagi-article-language');
+    return languageOrder.includes(stored as Language) ? stored as Language : undefined;
+  }
+  function requestedLanguage(): Language { return storedLanguage() ?? 'zh'; }
+  function actualLanguage(group: HTMLElement, requested: Language): Language | undefined {
+    const available = new Set([...group.querySelectorAll<HTMLElement>('[data-language-variant]')].map((variant) => variant.dataset.languageVariant as Language));
+    const fallbackOrder: Language[] = [requested, 'zh', 'en', 'ja'];
+    return fallbackOrder.find((language) => available.has(language));
+  }
+  function applyLanguage(requested: Language, persist = true) {
+    if (persist) localStorage.setItem('nagi-article-language', requested);
+    document.documentElement.dataset.articleLanguage = requested;
+    for (const button of languageButtons) button.setAttribute('aria-pressed', String(button.dataset.languageSelect === requested));
+    for (const group of document.querySelectorAll<HTMLElement>('[data-language-group]')) {
+      const actual = actualLanguage(group, requested);
+      group.dataset.actualLanguage = actual ?? '';
+      group.toggleAttribute('data-language-fallback', Boolean(actual && actual !== requested));
+      for (const variant of group.querySelectorAll<HTMLElement>('[data-language-variant]')) variant.hidden = variant.dataset.languageVariant !== actual;
+    }
+    document.dispatchEvent(new CustomEvent('nagi:language', { detail: { requested } }));
+  }
+  for (const button of languageButtons) button.addEventListener('click', () => applyLanguage(button.dataset.languageSelect as Language));
+  applyLanguage(requestedLanguage(), false);
+</script>
+<style>
+  .header { position: sticky; top: 0; z-index: 10; border-top: 3px solid var(--accent); border-bottom: 1px solid var(--line); background: var(--paper); }
+  .nav { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+  .brand { display: inline-flex; align-items: baseline; gap: 0.38rem; color: var(--ink); font-family: var(--serif); font-size: 1.2rem; text-decoration: none; }
+  .brand::before { width: 0.48rem; height: 0.48rem; background: var(--accent); content: ""; }
+  .brand span { color: var(--muted-readable); font-family: var(--sans); font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+  .nav-cluster, nav, .language-switcher { display: flex; align-items: center; }
+  .nav-cluster { gap: clamp(1.2rem, 3vw, 3rem); }
+  nav { gap: clamp(0.9rem, 2vw, 1.55rem); }
+  nav a { color: var(--muted-readable); font-size: 0.78rem; font-weight: 650; letter-spacing: 0.045em; text-decoration: none; text-transform: uppercase; }
+  nav a[aria-current="page"], nav a:hover { color: var(--ink); }
+  .language-switcher { gap: 0.15rem; padding-left: 1rem; border-left: 1px solid var(--line); }
+  .language-switcher button { min-width: 2.1rem; padding: 0.3rem 0.4rem; border: 0; border-bottom: 2px solid transparent; background: transparent; color: var(--muted-readable); font: 700 0.72rem/1 var(--sans); cursor: pointer; }
+  .language-switcher button[aria-pressed="true"] { border-bottom-color: var(--accent); color: var(--ink); }
+  .menu { display: none; padding: 0.35rem 0.6rem; border: 1px solid var(--line); background: none; }
+  @media (max-width: 880px) {
+    .menu { display: block; }
+    .nav-cluster { margin-left: auto; }
+    nav { display: none; position: absolute; top: 60px; right: 16px; left: 16px; padding: 1rem; border: 1px solid var(--line); background: var(--paper); flex-direction: column; align-items: stretch; }
+    nav[data-open] { display: flex; }
+  }
+  @media (max-width: 360px) {
+    .nav { gap: 0.5rem; }
+    .language-switcher { padding-left: 0.5rem; }
+  }
+</style>

@@ -1,0 +1,646 @@
+[
+  {
+    "repository": "parent",
+    "path": ".github/workflows/pages.yml",
+    "exists": true,
+    "sha256": "80b6ef6508300cacc8bd548052bb176affc879afebce26a5da9d03caf80d4ed9",
+    "preparedSource": "nagi.tw/release-preparation/phase3/workflows/personal-pages.yml"
+  },
+  {
+    "repository": "parent",
+    "path": ".gitignore",
+    "exists": true,
+    "sha256": "330a6f79e4d89dd0e6f18d5e49b30ac91a2d7750ab881820e5143f21d965a173",
+    "preparedSource": "nagi.tw/release-preparation/phase3/parent.gitignore.final"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/.gitignore",
+    "exists": true,
+    "sha256": "b7aed9bb4758ae99d721585e187e5f8290fb03eecc88021c0595fc436aa6b283",
+    "preparedSource": "nagi.tw/.gitignore"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/README.md",
+    "exists": true,
+    "sha256": "e10e6c91c25825b2aa72b74be210f4ee3d4dd6f5f390031e19e6e8013b1a6d65",
+    "preparedSource": "nagi.tw/README.md"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/astro.config.mjs",
+    "exists": true,
+    "sha256": "e0ccc0e0b28a53074402174b2d939b976b5295ecda88252ebe6d9f70e48c6fce",
+    "preparedSource": "nagi.tw/astro.config.mjs"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/package-lock.json",
+    "exists": true,
+    "sha256": "450a0befd24fceec632191165ebfc7b24633e248413eafdf611dd87a225e4757",
+    "preparedSource": "nagi.tw/package-lock.json"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/package.json",
+    "exists": true,
+    "sha256": "13eea63f76b6829bf8c4cbd938866a2707a1021d8eb9be2d468cc78a03d38336",
+    "preparedSource": "nagi.tw/package.json"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/public/robots.txt",
+    "exists": true,
+    "sha256": "b9dc1ff5958fe2d42eb75b057a72f4ff83f80544249d558718ec7b542c7bb463",
+    "preparedSource": "nagi.tw/public/robots.txt"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/scripts/sync-notes.mjs",
+    "exists": true,
+    "sha256": "27d0e5efcbeaf369734b3fc0687100daf802291498d49f1f29192b70bb7c2a9f",
+    "preparedSource": "nagi.tw/scripts/sync-notes.mjs"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/scripts/validate-build.mjs",
+    "exists": true,
+    "sha256": "c94134b2ab2ca4cbc1397c19c386a3160faeda61f3287604c29bfd66bebdca40",
+    "preparedSource": "nagi.tw/scripts/validate-build.mjs"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/src/components/NotesPreview.astro",
+    "exists": true,
+    "sha256": "a67ba24d5b3a83f9adb48cfe95f939475edb1506cef002b1ae8d2758c2ef0dfd",
+    "preparedSource": "nagi.tw/src/components/NotesPreview.astro"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/src/components/SiteFooter.astro",
+    "exists": true,
+    "sha256": "204a3bbcffc046981d27073591da98f81d77d04ea7afd385c9806b5ae78f0ed9",
+    "preparedSource": "nagi.tw/src/components/SiteFooter.astro"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/src/components/SiteHeader.astro",
+    "exists": true,
+    "sha256": "83ea8ba068cbc6478259c57f5707828a2481902858e1eb9ee316018986b6f68d",
+    "preparedSource": "nagi.tw/src/components/SiteHeader.astro"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/src/data/notes-preview.json",
+    "exists": true,
+    "sha256": "50174e4ab03cd0ed52496984e80a5f9daf75edd9ee21b0a2b3773ca50415ce99",
+    "preparedSource": "nagi.tw/src/data/notes-preview.json"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/src/layouts/BaseLayout.astro",
+    "exists": true,
+    "sha256": "9669a39a9e0758f713746bd24dbf018e5029ced412c8bd0c46fbba15bc8bcbf0",
+    "preparedSource": "nagi.tw/src/layouts/BaseLayout.astro"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/src/lib/previews.ts",
+    "exists": true,
+    "sha256": "fb7eb16e166f7fe11f8bef25c19a3dac9f0619fa69742b353082bd3649cfcaca",
+    "preparedSource": "nagi.tw/src/lib/previews.ts"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/src/pages/index.astro",
+    "exists": true,
+    "sha256": "a623a413df708b13941a8768a0f6b8140a0b257b4108f1b9042daa08011578bc",
+    "preparedSource": "nagi.tw/src/pages/index.astro"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/src/styles/global.css",
+    "exists": true,
+    "sha256": "66269bcf5e768993139a88aaa6fc90603e814bbfe6b226fa8889460d9e68f3ff",
+    "preparedSource": "nagi.tw/src/styles/global.css"
+  },
+  {
+    "repository": "parent",
+    "path": "nagi.tw/tsconfig.json",
+    "exists": true,
+    "sha256": "974b0a3b37e52f3649d9df63e72e374794e9e797c8ae61eca4812f844406f7ef",
+    "preparedSource": "nagi.tw/tsconfig.json"
+  },
+  {
+    "repository": "notes",
+    "path": ".github/workflows/pages.yml",
+    "exists": true,
+    "sha256": "363d38819e74102c94ffdcab760c4ad489c715c4db0d04df9ff18d3f752b24a2",
+    "preparedSource": "nagi.tw/release-preparation/phase3/workflows/notes-pages.yml"
+  },
+  {
+    "repository": "notes",
+    "path": ".gitignore",
+    "exists": true,
+    "sha256": "15186d8048c5cca0370e18b005420e2e1f0c0e6a12663b1cfb02c6293338c3a2",
+    "preparedSource": "nagi.tw/release-preparation/phase3/notes.gitignore.final"
+  },
+  {
+    "repository": "notes",
+    "path": "README.md",
+    "exists": true,
+    "sha256": "5fb3e20722c942a0d6a9e7842389e3550f99dca535154f52ee3308aa051644a0",
+    "preparedSource": "notes.nagi.tw/README.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/ctf/ctf-meets-malware-analysis-windows.en.md",
+    "exists": true,
+    "sha256": "2a469858e327e6d0f456251a1566308b48e6799e8a3f87d0b435cba2d38295dc",
+    "preparedSource": "notes.nagi.tw/articles/ctf/ctf-meets-malware-analysis-windows.en.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/ctf/ctf-meets-malware-analysis-windows.ja.md",
+    "exists": true,
+    "sha256": "272602bd4a34bf3a1dbd9621a2e5a11724caaeee4e46ebd4e82fea6c116215b9",
+    "preparedSource": "notes.nagi.tw/articles/ctf/ctf-meets-malware-analysis-windows.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/ctf/ctf-meets-malware-analysis-windows.md",
+    "exists": true,
+    "sha256": "db97eb9219a1dfd849ff50a3bb33b0f70df5fb2732ab4bc1a1944c5ec2218d46",
+    "preparedSource": "notes.nagi.tw/articles/ctf/ctf-meets-malware-analysis-windows.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/engineering/.gitkeep",
+    "exists": true,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "preparedSource": "notes.nagi.tw/articles/engineering/.gitkeep"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/engineering/frc-engineering-team.md",
+    "exists": true,
+    "sha256": "1b9cf72e3b543d552eb719ed4fd9e1ed9a21ba1d8cbee55e6acf04c9cd3a125f",
+    "preparedSource": "notes.nagi.tw/articles/engineering/frc-engineering-team.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/from-nihscsed-to-control-team.en.md",
+    "exists": true,
+    "sha256": "3f99eb115a586028eb28e041cb5c358f71bbcd10f55c00bfcf535e4bc51bbe65",
+    "preparedSource": "notes.nagi.tw/articles/personal/from-nihscsed-to-control-team.en.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/from-nihscsed-to-control-team.ja.md",
+    "exists": true,
+    "sha256": "95b2c5c071dd732796fae11aafd7adc24da0b87c103731369290f7b99a33ffdf",
+    "preparedSource": "notes.nagi.tw/articles/personal/from-nihscsed-to-control-team.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/from-nihscsed-to-control-team.md",
+    "exists": true,
+    "sha256": "639ef15f42a12fdaf914f98292366345e53c1bb32e5c5e737ba7dc86fa60ac72",
+    "preparedSource": "notes.nagi.tw/articles/personal/from-nihscsed-to-control-team.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/not-everyone-has-to-walk-the-same-road.ja.md",
+    "exists": true,
+    "sha256": "0642787649db92824503f988c1f6754c5cfbe554fef7ca09bc1ee85d9e288016",
+    "preparedSource": "notes.nagi.tw/articles/personal/not-everyone-has-to-walk-the-same-road.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/not-everyone-has-to-walk-the-same-road.md",
+    "exists": true,
+    "sha256": "30df5db924ecce2520e221d4c05c51e3fc4f33b74144628f7374f2001d090ded",
+    "preparedSource": "notes.nagi.tw/articles/personal/not-everyone-has-to-walk-the-same-road.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/prologue-the-people-i-met-along-the-way.ja.md",
+    "exists": true,
+    "sha256": "32cba3a3a211e24b435c5280134b6e005c235dd74a11704b7f13183b12004a75",
+    "preparedSource": "notes.nagi.tw/articles/personal/prologue-the-people-i-met-along-the-way.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/prologue-the-people-i-met-along-the-way.md",
+    "exists": true,
+    "sha256": "c49d7ae253394ae8ffe432fd6fe13647ac47a281323cf75c926488c21d48a25a",
+    "preparedSource": "notes.nagi.tw/articles/personal/prologue-the-people-i-met-along-the-way.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/ten-years-from-now-dont-forget-who-you-are-now.ja.md",
+    "exists": true,
+    "sha256": "9b147d8ecad7589ced6025d40ed397471654bd96a55425207aafeaf4713630c9",
+    "preparedSource": "notes.nagi.tw/articles/personal/ten-years-from-now-dont-forget-who-you-are-now.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/ten-years-from-now-dont-forget-who-you-are-now.md",
+    "exists": true,
+    "sha256": "dd2741f09eada604a5e4457623804ad73a623358bbeb61283b1345c9e9f1bcd6",
+    "preparedSource": "notes.nagi.tw/articles/personal/ten-years-from-now-dont-forget-who-you-are-now.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/why-i-still-use-codex.ja.md",
+    "exists": true,
+    "sha256": "ed296a2ecfa3d7d7cb2aa6924fbf65bd0d12ee8bec70b40a144dc84b53490c9e",
+    "preparedSource": "notes.nagi.tw/articles/personal/why-i-still-use-codex.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/personal/why-i-still-use-codex.md",
+    "exists": true,
+    "sha256": "611f1e93951cc8875fd6425bf15021dfd568cc497639bc323680c205d18df021",
+    "preparedSource": "notes.nagi.tw/articles/personal/why-i-still-use-codex.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/projects/.gitkeep",
+    "exists": true,
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "preparedSource": "notes.nagi.tw/articles/projects/.gitkeep"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/projects/recent-projects-and-life-update.md",
+    "exists": true,
+    "sha256": "071538d36d47635baebe3bf2c9bf5dd0dcb8c2073deacdb178510a2a4a3d5e3b",
+    "preparedSource": "notes.nagi.tw/articles/projects/recent-projects-and-life-update.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/research/infosec-taiwan-2026-student-industry-gap.en.md",
+    "exists": true,
+    "sha256": "6896ea301acecf788a0ea11274a7bdc13e4d76cb5d00a0800be92838c3024efa",
+    "preparedSource": "notes.nagi.tw/articles/research/infosec-taiwan-2026-student-industry-gap.en.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/research/infosec-taiwan-2026-student-industry-gap.ja.md",
+    "exists": true,
+    "sha256": "4b533851c287eb0e5a6c7b2ea8a9a6f8510fbb66dcbcd8f20193667b9b2ca717",
+    "preparedSource": "notes.nagi.tw/articles/research/infosec-taiwan-2026-student-industry-gap.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/research/infosec-taiwan-2026-student-industry-gap.md",
+    "exists": true,
+    "sha256": "6f6142d4195edf588b09c2dbaf14dab0a06242c798ca3e00f72ba774fda17265",
+    "preparedSource": "notes.nagi.tw/articles/research/infosec-taiwan-2026-student-industry-gap.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/research/nurse-made-me-rethink-medical-cybersecurity.en.md",
+    "exists": true,
+    "sha256": "1171facaa6f6fe75f3330512d659c2e03a619a010ff0c00e71e206fb2fc489f9",
+    "preparedSource": "notes.nagi.tw/articles/research/nurse-made-me-rethink-medical-cybersecurity.en.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/research/nurse-made-me-rethink-medical-cybersecurity.ja.md",
+    "exists": true,
+    "sha256": "dba7f688dfee44b34b3589234b9a5268d46b6e8117be2f84df4bf819757cb830",
+    "preparedSource": "notes.nagi.tw/articles/research/nurse-made-me-rethink-medical-cybersecurity.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/research/nurse-made-me-rethink-medical-cybersecurity.md",
+    "exists": true,
+    "sha256": "c65730cd1a4629449d78ecdcc1719707fcb5d83c6e33b952e5276826a493187e",
+    "preparedSource": "notes.nagi.tw/articles/research/nurse-made-me-rethink-medical-cybersecurity.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/research/taiwan-student-cybersecurity-growing-apart.en.md",
+    "exists": false,
+    "sha256": null,
+    "preparedSource": "notes.nagi.tw/articles/research/taiwan-student-cybersecurity-growing-apart.en.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/research/taiwan-student-cybersecurity-growing-apart.ja.md",
+    "exists": false,
+    "sha256": null,
+    "preparedSource": "notes.nagi.tw/articles/research/taiwan-student-cybersecurity-growing-apart.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/research/taiwan-student-cybersecurity-growing-apart.md",
+    "exists": false,
+    "sha256": null,
+    "preparedSource": "notes.nagi.tw/articles/research/taiwan-student-cybersecurity-growing-apart.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/security/2026-security-conference.en.md",
+    "exists": true,
+    "sha256": "6b51b8d0205e134b7fdb629a26a7bdd7e3bf07af979cb7dde9d0dd2c9c57ce90",
+    "preparedSource": "notes.nagi.tw/articles/security/2026-security-conference.en.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/security/2026-security-conference.ja.md",
+    "exists": true,
+    "sha256": "62d5fd3a07f5f72c895873891eb2cd25f089d181fd2b6a9b24e60b68978cdb53",
+    "preparedSource": "notes.nagi.tw/articles/security/2026-security-conference.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/security/2026-security-conference.md",
+    "exists": true,
+    "sha256": "d2201e2093f0cd8218ab20fe6cf1e177272fefa9b6f23b07cf8fc9a22b10d6fe",
+    "preparedSource": "notes.nagi.tw/articles/security/2026-security-conference.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/security/retail-work-sme-security-culture.en.md",
+    "exists": true,
+    "sha256": "bc3acad72c68fefacc49e53a5faa236f298c0fbad3f4a506e6be123f9e2804a8",
+    "preparedSource": "notes.nagi.tw/articles/security/retail-work-sme-security-culture.en.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/security/retail-work-sme-security-culture.ja.md",
+    "exists": true,
+    "sha256": "0b0d02d425689f8dae5f625aa8ebbff8d6d07d943b7d02cdd99cb90eeebfb584",
+    "preparedSource": "notes.nagi.tw/articles/security/retail-work-sme-security-culture.ja.md"
+  },
+  {
+    "repository": "notes",
+    "path": "articles/security/retail-work-sme-security-culture.md",
+    "exists": true,
+    "sha256": "f1ce7d03480748236b9513a286f143c4a219099de83a69a39b5b36021f85f57f",
+    "preparedSource": "notes.nagi.tw/articles/security/retail-work-sme-security-culture.md"
+  },
+  {
+    "repository": "notes",
+    "path": "assets/images/casper.png",
+    "exists": false,
+    "sha256": null,
+    "preparedSource": "notes.nagi.tw/assets/images/casper.png"
+  },
+  {
+    "repository": "notes",
+    "path": "assets/images/cybersec-2026.jpg",
+    "exists": false,
+    "sha256": null,
+    "preparedSource": "notes.nagi.tw/assets/images/cybersec-2026.jpg"
+  },
+  {
+    "repository": "notes",
+    "path": "assets/images/seraph.png",
+    "exists": false,
+    "sha256": null,
+    "preparedSource": "notes.nagi.tw/assets/images/seraph.png"
+  },
+  {
+    "repository": "notes",
+    "path": "astro.config.mjs",
+    "exists": true,
+    "sha256": "0d42d0ff7a8d2ba3ef34e01d13d4ee8b1a6991c2138b1b2b0a9c432971e5b66a",
+    "preparedSource": "notes.nagi.tw/astro.config.mjs"
+  },
+  {
+    "repository": "notes",
+    "path": "docs/superpowers/plans/2026-09-15-nagi-notes-site.md",
+    "exists": true,
+    "sha256": "38e949ecfdae98512df77236121089b5c8e4f32f541556dfc15817fa41a5ff05",
+    "preparedSource": "notes.nagi.tw/docs/superpowers/plans/2026-09-15-nagi-notes-site.md"
+  },
+  {
+    "repository": "notes",
+    "path": "docs/superpowers/plans/2026-09-17-notes-taxonomy.md",
+    "exists": true,
+    "sha256": "92af58c8920502631ee64e0b527beb8a4bae0623208b57a2faad4216cc15388a",
+    "preparedSource": "notes.nagi.tw/docs/superpowers/plans/2026-09-17-notes-taxonomy.md"
+  },
+  {
+    "repository": "notes",
+    "path": "migration-report.md",
+    "exists": true,
+    "sha256": "614678f9f753e6a62dc8e53e9886a9f65c50dae1be3c802fffb0a3508334751d",
+    "preparedSource": "notes.nagi.tw/migration-report.md"
+  },
+  {
+    "repository": "notes",
+    "path": "package-lock.json",
+    "exists": true,
+    "sha256": "099b828a9971d5729aee82d1f335ca30e95c4ef69c48d9a50e2b7ff2327dbda8",
+    "preparedSource": "notes.nagi.tw/package-lock.json"
+  },
+  {
+    "repository": "notes",
+    "path": "package.json",
+    "exists": true,
+    "sha256": "c7c9bea42ead0fd1400a07f374332327c2b68d5f4bdd1c24a15fa6ecc23cd0eb",
+    "preparedSource": "notes.nagi.tw/package.json"
+  },
+  {
+    "repository": "notes",
+    "path": "public/assets/images/casper.png",
+    "exists": true,
+    "sha256": "b769fdd63634e9cc0b60305d555b1867723ce80d4c83505101422f286948ab63",
+    "preparedSource": "notes.nagi.tw/public/assets/images/casper.png"
+  },
+  {
+    "repository": "notes",
+    "path": "public/assets/images/cybersec-2026.jpg",
+    "exists": true,
+    "sha256": "a777b2339b9328497a81e416408938f159fbb6331057de1ae982e540308788c6",
+    "preparedSource": "notes.nagi.tw/public/assets/images/cybersec-2026.jpg"
+  },
+  {
+    "repository": "notes",
+    "path": "public/assets/images/seraph.png",
+    "exists": true,
+    "sha256": "b769fdd63634e9cc0b60305d555b1867723ce80d4c83505101422f286948ab63",
+    "preparedSource": "notes.nagi.tw/public/assets/images/seraph.png"
+  },
+  {
+    "repository": "notes",
+    "path": "public/robots.txt",
+    "exists": true,
+    "sha256": "fe65573295a08b0bdd63c5cdb7ae533e17a57df66ea6912abd2830bdb450ae69",
+    "preparedSource": "notes.nagi.tw/public/robots.txt"
+  },
+  {
+    "repository": "notes",
+    "path": "scripts/validate-build.mjs",
+    "exists": true,
+    "sha256": "6fb0017b3922fa5173647f62d000b2d245ce28033e5085c88551fac8500a47d0",
+    "preparedSource": "notes.nagi.tw/scripts/validate-build.mjs"
+  },
+  {
+    "repository": "notes",
+    "path": "scripts/validate-language-runtime.mjs",
+    "exists": true,
+    "sha256": "c244692e59e01c7225c9a5d58dc1e430f33d169f36711d7b9a99689f5a5c6a95",
+    "preparedSource": "notes.nagi.tw/scripts/validate-language-runtime.mjs"
+  },
+  {
+    "repository": "notes",
+    "path": "scripts/validate-taxonomy.mjs",
+    "exists": true,
+    "sha256": "93f639556a27faa14c6db10b67f765f510e0702b8c4d3463d19618e1499abffc",
+    "preparedSource": "notes.nagi.tw/scripts/validate-taxonomy.mjs"
+  },
+  {
+    "repository": "notes",
+    "path": "scripts/validate-ui.mjs",
+    "exists": true,
+    "sha256": "3be5e255b71318b3456bf4ea383eecb6ca2cc6bd4c1c0dfaf0d3821a7963810f",
+    "preparedSource": "notes.nagi.tw/scripts/validate-ui.mjs"
+  },
+  {
+    "repository": "notes",
+    "path": "src/components/ArticleList.astro",
+    "exists": true,
+    "sha256": "1bb006e76b87a9c595112fda59dbfc058a43b3a69f7417b3112df34bf89d2686",
+    "preparedSource": "notes.nagi.tw/src/components/ArticleList.astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/components/SiteFooter.astro",
+    "exists": true,
+    "sha256": "cc3b6a0ed969329795f5bd925c3dc4ebcb0fb7418f1762b59e2eb48db7e3e7bc",
+    "preparedSource": "notes.nagi.tw/src/components/SiteFooter.astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/components/SiteHeader.astro",
+    "exists": true,
+    "sha256": "487e0bb90eaec457cceb64338df65d7df3b7136af749d83065e3173d219833c9",
+    "preparedSource": "notes.nagi.tw/src/components/SiteHeader.astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/content.config.ts",
+    "exists": true,
+    "sha256": "cee012d9fa2879024f6605190d48bfdd7b6bd618a51a9ab6844a5f09c918fdf3",
+    "preparedSource": "notes.nagi.tw/src/content.config.ts"
+  },
+  {
+    "repository": "notes",
+    "path": "src/layouts/BaseLayout.astro",
+    "exists": true,
+    "sha256": "0cb3cdf407a2bf0bd16281fcefef7606d348782e77f1f1780e8ce2ac9e465ab7",
+    "preparedSource": "notes.nagi.tw/src/layouts/BaseLayout.astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/lib/articles.ts",
+    "exists": true,
+    "sha256": "2a245d985b710121ca8dca6fcfa60ba86fac7c025d3ff6f301f90d31513093c9",
+    "preparedSource": "notes.nagi.tw/src/lib/articles.ts"
+  },
+  {
+    "repository": "notes",
+    "path": "src/lib/categories.ts",
+    "exists": true,
+    "sha256": "54d59a6e577ade07d0e3d2ca095f326110f2b87b5b044eb8a6614fa6e7afcea5",
+    "preparedSource": "notes.nagi.tw/src/lib/categories.ts"
+  },
+  {
+    "repository": "notes",
+    "path": "src/lib/topics.ts",
+    "exists": true,
+    "sha256": "e3a36955ee25e05fc3a9bfcc93f2de24cb64f56ab9bb6578c8c5d0cce4a283af",
+    "preparedSource": "notes.nagi.tw/src/lib/topics.ts"
+  },
+  {
+    "repository": "notes",
+    "path": "src/pages/about.astro",
+    "exists": true,
+    "sha256": "01fd17f29f2e5337e54cb0276c3d6c08a80477e009478254a116afea4f74e00e",
+    "preparedSource": "notes.nagi.tw/src/pages/about.astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/pages/archive.astro",
+    "exists": true,
+    "sha256": "f7c54a9f330af5f8af2bd2d7d71cfe1c5685db14fbcb00a235605cdaf128caac",
+    "preparedSource": "notes.nagi.tw/src/pages/archive.astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/pages/articles/[...path].astro",
+    "exists": true,
+    "sha256": "58196e5ff9069bf278da52bb52c83934d55c867e9eb293ab35728aa37e96a9b6",
+    "preparedSource": "notes.nagi.tw/src/pages/articles/[...path].astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/pages/articles/index.astro",
+    "exists": true,
+    "sha256": "b3cd65d43e083f7178d6a7f0f1e3c60df91ab1f39dd574bc878f5ff345a79c10",
+    "preparedSource": "notes.nagi.tw/src/pages/articles/index.astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/pages/experience.astro",
+    "exists": true,
+    "sha256": "11aa7f5491c6539f23a48e9a5776c875e1ef0efeb3d5a9e513e97a3cc45b70e7",
+    "preparedSource": "notes.nagi.tw/src/pages/experience.astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/pages/index.astro",
+    "exists": true,
+    "sha256": "2373929666e4c9ea712019e06e694e5af470d9094f757a6ff497417ec3d162f7",
+    "preparedSource": "notes.nagi.tw/src/pages/index.astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/pages/rss.xml.js",
+    "exists": true,
+    "sha256": "cfd9b0efde66b8d26d05229ba9c690a0e9542ac0f4819e9617cd171f1fb2000f",
+    "preparedSource": "notes.nagi.tw/src/pages/rss.xml.js"
+  },
+  {
+    "repository": "notes",
+    "path": "src/pages/search-index.json.ts",
+    "exists": true,
+    "sha256": "5f41e1dc8c70e8cba98f230caa7fa4d78fcc066a653f6ee56d61e0cb98faacc1",
+    "preparedSource": "notes.nagi.tw/src/pages/search-index.json.ts"
+  },
+  {
+    "repository": "notes",
+    "path": "src/pages/topics/[topic].astro",
+    "exists": true,
+    "sha256": "7767200830f8f15c299b22cbe75d7e227179d7779c909a55c9093588c223ba5d",
+    "preparedSource": "notes.nagi.tw/src/pages/topics/[topic].astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/pages/topics/index.astro",
+    "exists": true,
+    "sha256": "2a80697599e80342f52f0b47112c2933474d9b43961d38d7c589787e128dac58",
+    "preparedSource": "notes.nagi.tw/src/pages/topics/index.astro"
+  },
+  {
+    "repository": "notes",
+    "path": "src/styles/global.css",
+    "exists": true,
+    "sha256": "66269bcf5e768993139a88aaa6fc90603e814bbfe6b226fa8889460d9e68f3ff",
+    "preparedSource": "notes.nagi.tw/src/styles/global.css"
+  },
+  {
+    "repository": "notes",
+    "path": "tsconfig.json",
+    "exists": true,
+    "sha256": "974b0a3b37e52f3649d9df63e72e374794e9e797c8ae61eca4812f844406f7ef",
+    "preparedSource": "notes.nagi.tw/tsconfig.json"
+  }
+]

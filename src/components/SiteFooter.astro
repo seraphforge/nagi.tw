@@ -1,0 +1,18 @@
+---
+---
+
+<footer>
+  <div class="container">
+    <span>© {new Date().getFullYear()} Nagi.tw</span>
+    <nav aria-label="Footer"><a href="https://github.com/seraphforge">GitHub</a><a href="https://notes.nagi.tw/">Notes</a><a href="/">Nagi.tw</a></nav>
+  </div>
+</footer>
+
+<style>
+  footer { position: relative; border-top: 1px solid var(--line); padding: 2.5rem 0; color: var(--muted-readable); font-size: 0.78rem; letter-spacing: 0.035em; }
+  footer::before { position: absolute; top: -1px; left: max(24px, calc((100% - var(--page)) / 2)); width: 4rem; height: 3px; background: var(--accent); content: ""; }
+  footer .container { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 1rem; align-items: end; }
+  nav { display: flex; gap: 1.2rem; }
+  a { color: inherit; }
+  @media (max-width: 520px) { footer .container { grid-template-columns: 1fr; } nav { margin-top: 0.8rem; } }
+</style>

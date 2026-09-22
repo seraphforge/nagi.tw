@@ -1,0 +1,4959 @@
+{
+  "version": 1,
+  "active": false,
+  "source_roots": [
+    ".deploy_git",
+    "public"
+  ],
+  "deployed_commit": "f1219becae149a68cd4a5108a30dfcbba8f80707",
+  "host_scope": "nagi.tw URLs are custom-domain projections; github.io URLs represent the retained project-site path. No live DNS or production fetch was used.",
+  "counts": {
+    "A": 2,
+    "B": 25,
+    "C": 0,
+    "D": 163
+  },
+  "routes": [
+    {
+      "path": "/",
+      "evidence": [
+        ".deploy_git/index.html",
+        "public/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/",
+        "https://seraphforge.github.io/seraphforge.tw/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/"
+      ],
+      "title": "Nagi. — Security, systems, and things I build",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "A",
+      "target": null,
+      "status": null,
+      "reason": "Same custom-domain URL is provided by the personal app.",
+      "review_required": false
+    },
+    {
+      "path": "/2026/05/09/2026-security-conference/",
+      "evidence": [
+        ".deploy_git/2026/05/09/2026-security-conference/index.html",
+        "public/2026/05/09/2026-security-conference/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/2026/05/09/2026-security-conference/",
+        "https://seraphforge.github.io/seraphforge.tw/2026/05/09/2026-security-conference/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/2026/05/09/2026-security-conference/"
+      ],
+      "title": "Reflections from the 2026 Cybersecurity Conference: Seeing the Real Shape of the Security Industry — RYVÆN",
+      "article": true,
+      "language": "en",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/2026-security-conference/en/",
+      "status": 301,
+      "reason": "Exact migrated article identity and en edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/",
+      "evidence": [
+        ".deploy_git/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/index.html",
+        "public/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/",
+        "https://seraphforge.github.io/seraphforge.tw/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/"
+      ],
+      "title": "A Nurse Made Me Rethink Medical Cybersecurity — RYVÆN",
+      "article": true,
+      "language": "en",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/nurse-made-me-rethink-medical-cybersecurity/en/",
+      "status": 301,
+      "reason": "Exact migrated article identity and en edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/2026/07/07/infosec-taiwan-2026-student-industry-gap/",
+      "evidence": [
+        ".deploy_git/2026/07/07/infosec-taiwan-2026-student-industry-gap/index.html",
+        "public/2026/07/07/infosec-taiwan-2026-student-industry-gap/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/2026/07/07/infosec-taiwan-2026-student-industry-gap/",
+        "https://seraphforge.github.io/seraphforge.tw/2026/07/07/infosec-taiwan-2026-student-industry-gap/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/2026/07/07/infosec-taiwan-2026-student-industry-gap/"
+      ],
+      "title": "What InfoSec Taiwan 2026 Showed Me About the Gap Between Students and Industry — RYVÆN",
+      "article": true,
+      "language": "en",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/infosec-taiwan-2026-student-industry-gap/en/",
+      "status": 301,
+      "reason": "Exact migrated article identity and en edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/2026/07/08/ctf-meets-malware-analysis-windows/",
+      "evidence": [
+        ".deploy_git/2026/07/08/ctf-meets-malware-analysis-windows/index.html",
+        "public/2026/07/08/ctf-meets-malware-analysis-windows/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/2026/07/08/ctf-meets-malware-analysis-windows/",
+        "https://seraphforge.github.io/seraphforge.tw/2026/07/08/ctf-meets-malware-analysis-windows/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/2026/07/08/ctf-meets-malware-analysis-windows/"
+      ],
+      "title": "When CTF Meets Malware Analysis: My First Windows Malware Analysis — RYVÆN",
+      "article": true,
+      "language": "en",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/ctf-meets-malware-analysis-windows/en/",
+      "status": 301,
+      "reason": "Exact migrated article identity and en edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/2026/07/18/retail-work-sme-security-culture/",
+      "evidence": [
+        ".deploy_git/2026/07/18/retail-work-sme-security-culture/index.html",
+        "public/2026/07/18/retail-work-sme-security-culture/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/2026/07/18/retail-work-sme-security-culture/",
+        "https://seraphforge.github.io/seraphforge.tw/2026/07/18/retail-work-sme-security-culture/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/2026/07/18/retail-work-sme-security-culture/"
+      ],
+      "title": "What a Retail Job Taught Me About the Security Gaps Small Businesses Often Miss — RYVÆN",
+      "article": true,
+      "language": "en",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/retail-work-sme-security-culture/en/",
+      "status": 301,
+      "reason": "Exact migrated article identity and en edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/2026/08/17/frc-engineering-team/",
+      "evidence": [
+        ".deploy_git/2026/08/17/frc-engineering-team/index.html",
+        "public/2026/08/17/frc-engineering-team/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/2026/08/17/frc-engineering-team/",
+        "https://seraphforge.github.io/seraphforge.tw/2026/08/17/frc-engineering-team/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/2026/08/17/frc-engineering-team/"
+      ],
+      "title": "我終於完成了我的 FRC 之夢 — RYVÆN",
+      "article": true,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/frc-engineering-team/",
+      "status": 301,
+      "reason": "Exact migrated article identity and zh edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/404.html",
+      "evidence": [
+        ".deploy_git/404.html",
+        "public/404.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/404.html",
+        "https://seraphforge.github.io/seraphforge.tw/404.html"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/404.html"
+      ],
+      "title": "404 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/about/",
+      "evidence": [
+        ".deploy_git/about/index.html",
+        "public/about/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/about/",
+        "https://seraphforge.github.io/seraphforge.tw/about/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/about/"
+      ],
+      "title": "關於 RYVÆN — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/about/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/archive/",
+      "evidence": [
+        ".deploy_git/archive/index.html",
+        "public/archive/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/archive/",
+        "https://seraphforge.github.io/seraphforge.tw/archive/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/archive/"
+      ],
+      "title": "結案紀錄 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/archive/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/archives/",
+      "evidence": [
+        ".deploy_git/archives/index.html",
+        "public/archives/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/archives/",
+        "https://seraphforge.github.io/seraphforge.tw/archives/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/archives/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/archive/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/archives/2026/",
+      "evidence": [
+        ".deploy_git/archives/2026/index.html",
+        "public/archives/2026/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/archives/2026/",
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/archives/2026/05/",
+      "evidence": [
+        ".deploy_git/archives/2026/05/index.html",
+        "public/archives/2026/05/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/archives/2026/05/",
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/05/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/05/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/archives/2026/06/",
+      "evidence": [
+        ".deploy_git/archives/2026/06/index.html",
+        "public/archives/2026/06/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/archives/2026/06/",
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/06/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/06/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/archives/2026/07/",
+      "evidence": [
+        ".deploy_git/archives/2026/07/index.html",
+        "public/archives/2026/07/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/archives/2026/07/",
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/07/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/07/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/archives/2026/08/",
+      "evidence": [
+        ".deploy_git/archives/2026/08/index.html",
+        "public/archives/2026/08/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/archives/2026/08/",
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/08/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/08/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/archives/2026/09/",
+      "evidence": [
+        "public/archives/2026/09/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/archives/2026/09/",
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/09/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/09/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/archives/2026/page/2/",
+      "evidence": [
+        ".deploy_git/archives/2026/page/2/index.html",
+        "public/archives/2026/page/2/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/archives/2026/page/2/",
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/page/2/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/archives/2026/page/2/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/archives/page/2/",
+      "evidence": [
+        ".deploy_git/archives/page/2/index.html",
+        "public/archives/page/2/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/archives/page/2/",
+        "https://seraphforge.github.io/seraphforge.tw/archives/page/2/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/archives/page/2/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/資安/",
+      "evidence": [
+        ".deploy_git/categories/資安/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/資安/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/資安/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/%E8%B3%87%E5%AE%89/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/Cybersecurity/",
+      "evidence": [
+        ".deploy_git/categories/Cybersecurity/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/Cybersecurity/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/Cybersecurity/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/Cybersecurity/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/Medical-Security/",
+      "evidence": [
+        ".deploy_git/categories/Medical-Security/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/Medical-Security/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/Medical-Security/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/Medical-Security/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/Personal/",
+      "evidence": [
+        "public/categories/Personal/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/Personal/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/Personal/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/Personal/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/Personal/Competition/",
+      "evidence": [
+        "public/categories/Personal/Competition/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/Personal/Competition/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/Personal/Competition/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/Personal/Competition/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/Personal/Reflection/",
+      "evidence": [
+        "public/categories/Personal/Reflection/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/Personal/Reflection/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/Personal/Reflection/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/Personal/Reflection/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/Research/",
+      "evidence": [
+        "public/categories/Research/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/Research/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/Research/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/Research/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/Research/Healthcare／Medical-IoT/",
+      "evidence": [
+        "public/categories/Research/Healthcare／Medical-IoT/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/Research/Healthcare／Medical-IoT/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/Research/Healthcare／Medical-IoT/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/Research/Healthcare%EF%BC%8FMedical-IoT/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/Research/SME-Security/",
+      "evidence": [
+        "public/categories/Research/SME-Security/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/Research/SME-Security/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/Research/SME-Security/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/Research/SME-Security/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/Technical/",
+      "evidence": [
+        "public/categories/Technical/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/Technical/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/Technical/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/Technical/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/categories/Technical/Malware-Analysis/",
+      "evidence": [
+        "public/categories/Technical/Malware-Analysis/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/categories/Technical/Malware-Analysis/",
+        "https://seraphforge.github.io/seraphforge.tw/categories/Technical/Malware-Analysis/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/categories/Technical/Malware-Analysis/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/contact/",
+      "evidence": [
+        ".deploy_git/contact/index.html",
+        "public/contact/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/contact/",
+        "https://seraphforge.github.io/seraphforge.tw/contact/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/contact/"
+      ],
+      "title": "Contact — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/css/custom.css",
+      "evidence": [
+        ".deploy_git/css/custom.css",
+        "public/css/custom.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/custom.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/custom.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/footer-polaris.css",
+      "evidence": [
+        ".deploy_git/css/footer-polaris.css",
+        "public/css/footer-polaris.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/footer-polaris.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/footer-polaris.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/lab.css",
+      "evidence": [
+        ".deploy_git/css/lab.css",
+        "public/css/lab.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/lab.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/lab.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/projects-engineering.css",
+      "evidence": [
+        ".deploy_git/css/projects-engineering.css",
+        "public/css/projects-engineering.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/projects-engineering.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/projects-engineering.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/round2.css",
+      "evidence": [
+        ".deploy_git/css/round2.css",
+        "public/css/round2.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/round2.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/round2.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/archive.css",
+      "evidence": [
+        ".deploy_git/css/seraph/archive.css",
+        "public/css/seraph/archive.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/archive.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/archive.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/article.css",
+      "evidence": [
+        ".deploy_git/css/seraph/article.css",
+        "public/css/seraph/article.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/article.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/article.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/base.css",
+      "evidence": [
+        ".deploy_git/css/seraph/base.css",
+        "public/css/seraph/base.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/base.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/base.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/components.css",
+      "evidence": [
+        ".deploy_git/css/seraph/components.css",
+        "public/css/seraph/components.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/components.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/components.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/header.css",
+      "evidence": [
+        ".deploy_git/css/seraph/header.css",
+        "public/css/seraph/header.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/header.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/header.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/home-entry.css",
+      "evidence": [
+        ".deploy_git/css/seraph/home-entry.css",
+        "public/css/seraph/home-entry.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/home-entry.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/home-entry.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/home.css",
+      "evidence": [
+        ".deploy_git/css/seraph/home.css",
+        "public/css/seraph/home.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/home.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/home.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/layout.css",
+      "evidence": [
+        ".deploy_git/css/seraph/layout.css",
+        "public/css/seraph/layout.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/layout.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/layout.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/pages.css",
+      "evidence": [
+        ".deploy_git/css/seraph/pages.css",
+        "public/css/seraph/pages.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/pages.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/pages.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/portfolio.css",
+      "evidence": [
+        "public/css/seraph/portfolio.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/portfolio.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/portfolio.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/project-detail.css",
+      "evidence": [
+        ".deploy_git/css/seraph/project-detail.css",
+        "public/css/seraph/project-detail.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/project-detail.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/project-detail.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/reset.css",
+      "evidence": [
+        ".deploy_git/css/seraph/reset.css",
+        "public/css/seraph/reset.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/reset.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/reset.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/responsive.css",
+      "evidence": [
+        ".deploy_git/css/seraph/responsive.css",
+        "public/css/seraph/responsive.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/responsive.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/responsive.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/resume.css",
+      "evidence": [
+        "public/css/seraph/resume.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/resume.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/resume.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/series.css",
+      "evidence": [
+        ".deploy_git/css/seraph/series.css",
+        "public/css/seraph/series.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/series.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/series.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/themes.css",
+      "evidence": [
+        ".deploy_git/css/seraph/themes.css",
+        "public/css/seraph/themes.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/themes.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/themes.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/css/seraph/tokens.css",
+      "evidence": [
+        ".deploy_git/css/seraph/tokens.css",
+        "public/css/seraph/tokens.css"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/css/seraph/tokens.css",
+        "https://seraphforge.github.io/seraphforge.tw/css/seraph/tokens.css"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/dashboard/",
+      "evidence": [
+        ".deploy_git/dashboard/index.html",
+        "public/dashboard/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/dashboard/",
+        "https://seraphforge.github.io/seraphforge.tw/dashboard/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/dashboard/"
+      ],
+      "title": "Dashboard — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/en/",
+      "evidence": [
+        ".deploy_git/en/index.html",
+        "public/en/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/",
+        "https://seraphforge.github.io/seraphforge.tw/en/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/"
+      ],
+      "title": "Home — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/en/about/",
+      "evidence": [
+        ".deploy_git/en/about/index.html",
+        "public/en/about/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/about/",
+        "https://seraphforge.github.io/seraphforge.tw/en/about/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/about/"
+      ],
+      "title": "About — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/about/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/en/archive/",
+      "evidence": [
+        ".deploy_git/en/archive/index.html",
+        "public/en/archive/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/archive/",
+        "https://seraphforge.github.io/seraphforge.tw/en/archive/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/archive/"
+      ],
+      "title": "Archive — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/archive/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/en/experience/",
+      "evidence": [
+        ".deploy_git/en/experience/index.html",
+        "public/en/experience/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/experience/",
+        "https://seraphforge.github.io/seraphforge.tw/en/experience/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/experience/"
+      ],
+      "title": "Experience — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/experience/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/en/journal/",
+      "evidence": [
+        ".deploy_git/en/journal/index.html",
+        "public/en/journal/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/journal/",
+        "https://seraphforge.github.io/seraphforge.tw/en/journal/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/journal/"
+      ],
+      "title": "Journal — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/en/projects/",
+      "evidence": [
+        ".deploy_git/en/projects/index.html",
+        "public/en/projects/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/projects/",
+        "https://seraphforge.github.io/seraphforge.tw/en/projects/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/projects/"
+      ],
+      "title": "Projects — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/en/research/",
+      "evidence": [
+        ".deploy_git/en/research/index.html",
+        "public/en/research/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/research/",
+        "https://seraphforge.github.io/seraphforge.tw/en/research/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/research/"
+      ],
+      "title": "Research — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/en/systems/",
+      "evidence": [
+        ".deploy_git/en/systems/index.html",
+        "public/en/systems/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/systems/",
+        "https://seraphforge.github.io/seraphforge.tw/en/systems/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/systems/"
+      ],
+      "title": "Systems — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/en/systems/home-lab/",
+      "evidence": [
+        ".deploy_git/en/systems/home-lab/index.html",
+        "public/en/systems/home-lab/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/systems/home-lab/",
+        "https://seraphforge.github.io/seraphforge.tw/en/systems/home-lab/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/systems/home-lab/"
+      ],
+      "title": "Home Lab — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/en/systems/medtrust/",
+      "evidence": [
+        ".deploy_git/en/systems/medtrust/index.html",
+        "public/en/systems/medtrust/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/systems/medtrust/",
+        "https://seraphforge.github.io/seraphforge.tw/en/systems/medtrust/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/systems/medtrust/"
+      ],
+      "title": "MedTrust — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/en/uses/",
+      "evidence": [
+        ".deploy_git/en/uses/index.html",
+        "public/en/uses/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/en/uses/",
+        "https://seraphforge.github.io/seraphforge.tw/en/uses/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/en/uses/"
+      ],
+      "title": "Uses — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/experience/",
+      "evidence": [
+        ".deploy_git/experience/index.html",
+        "public/experience/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/experience/",
+        "https://seraphforge.github.io/seraphforge.tw/experience/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/"
+      ],
+      "title": "經歷 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/experience/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/experience/awards/",
+      "evidence": [
+        ".deploy_git/experience/awards/index.html",
+        "public/experience/awards/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/experience/awards/",
+        "https://seraphforge.github.io/seraphforge.tw/experience/awards/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/awards/"
+      ],
+      "title": "Awards — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/experience/certifications/",
+      "evidence": [
+        ".deploy_git/experience/certifications/index.html",
+        "public/experience/certifications/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/experience/certifications/",
+        "https://seraphforge.github.io/seraphforge.tw/experience/certifications/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/certifications/"
+      ],
+      "title": "Certifications — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/experience/ctf/",
+      "evidence": [
+        ".deploy_git/experience/ctf/index.html",
+        "public/experience/ctf/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/experience/ctf/",
+        "https://seraphforge.github.io/seraphforge.tw/experience/ctf/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/ctf/"
+      ],
+      "title": "CTF Experience — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/experience/research/",
+      "evidence": [
+        ".deploy_git/experience/research/index.html",
+        "public/experience/research/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/experience/research/",
+        "https://seraphforge.github.io/seraphforge.tw/experience/research/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/research/"
+      ],
+      "title": "Research — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/experience/speaking/",
+      "evidence": [
+        ".deploy_git/experience/speaking/index.html",
+        "public/experience/speaking/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/experience/speaking/",
+        "https://seraphforge.github.io/seraphforge.tw/experience/speaking/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/speaking/"
+      ],
+      "title": "Speaking and Teaching — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/experience/workshops/",
+      "evidence": [
+        ".deploy_git/experience/workshops/index.html",
+        "public/experience/workshops/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/experience/workshops/",
+        "https://seraphforge.github.io/seraphforge.tw/experience/workshops/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/workshops/"
+      ],
+      "title": "Learning Events — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/favicon.svg",
+      "evidence": [
+        ".deploy_git/favicon.svg",
+        "public/favicon.svg"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/favicon.svg",
+        "https://seraphforge.github.io/seraphforge.tw/favicon.svg"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/feed.xml",
+      "evidence": [
+        ".deploy_git/feed.xml",
+        "public/feed.xml"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/feed.xml",
+        "https://seraphforge.github.io/seraphforge.tw/feed.xml"
+      ],
+      "observed_canonicals": [],
+      "classification": "B",
+      "target": "https://notes.nagi.tw/rss.xml",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/images/022.jpg",
+      "evidence": [
+        ".deploy_git/images/022.jpg",
+        "public/images/022.jpg"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/images/022.jpg",
+        "https://seraphforge.github.io/seraphforge.tw/images/022.jpg"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/images/05.jpg",
+      "evidence": [
+        ".deploy_git/images/05.jpg",
+        "public/images/05.jpg"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/images/05.jpg",
+        "https://seraphforge.github.io/seraphforge.tw/images/05.jpg"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/images/05.png",
+      "evidence": [
+        ".deploy_git/images/05.png",
+        "public/images/05.png"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/images/05.png",
+        "https://seraphforge.github.io/seraphforge.tw/images/05.png"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/images/06.jpg",
+      "evidence": [
+        ".deploy_git/images/06.jpg",
+        "public/images/06.jpg"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/images/06.jpg",
+        "https://seraphforge.github.io/seraphforge.tw/images/06.jpg"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/images/cybersec-2026.jpg",
+      "evidence": [
+        ".deploy_git/images/cybersec-2026.jpg",
+        "public/images/cybersec-2026.jpg"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/images/cybersec-2026.jpg",
+        "https://seraphforge.github.io/seraphforge.tw/images/cybersec-2026.jpg"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/images/seraph-og.png",
+      "evidence": [
+        ".deploy_git/images/seraph-og.png",
+        "public/images/seraph-og.png"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/images/seraph-og.png",
+        "https://seraphforge.github.io/seraphforge.tw/images/seraph-og.png"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/images/seraph.png",
+      "evidence": [
+        ".deploy_git/images/seraph.png",
+        "public/images/seraph.png"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/images/seraph.png",
+        "https://seraphforge.github.io/seraphforge.tw/images/seraph.png"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/journal/",
+      "evidence": [
+        ".deploy_git/journal/index.html",
+        "public/journal/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/journal/",
+        "https://seraphforge.github.io/seraphforge.tw/journal/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/journal/"
+      ],
+      "title": "研究筆記 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/journal/series/",
+      "evidence": [
+        ".deploy_git/journal/series/index.html",
+        "public/journal/series/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/journal/series/",
+        "https://seraphforge.github.io/seraphforge.tw/journal/series/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/journal/series/"
+      ],
+      "title": "Series — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/journal/series/medtrust/",
+      "evidence": [
+        ".deploy_git/journal/series/medtrust/index.html",
+        "public/journal/series/medtrust/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/journal/series/medtrust/",
+        "https://seraphforge.github.io/seraphforge.tw/journal/series/medtrust/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/journal/series/medtrust/"
+      ],
+      "title": "MedTrust Series — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/journal/series/medtrust/00/",
+      "evidence": [
+        ".deploy_git/journal/series/medtrust/00/index.html",
+        "public/journal/series/medtrust/00/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/journal/series/medtrust/00/",
+        "https://seraphforge.github.io/seraphforge.tw/journal/series/medtrust/00/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/journal/series/medtrust/00/"
+      ],
+      "title": "我為什麼開始做 MedTrust | MedTrust — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/journal/series/medtrust/01/",
+      "evidence": [
+        ".deploy_git/journal/series/medtrust/01/index.html",
+        "public/journal/series/medtrust/01/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/journal/series/medtrust/01/",
+        "https://seraphforge.github.io/seraphforge.tw/journal/series/medtrust/01/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/journal/series/medtrust/01/"
+      ],
+      "title": "01｜從高中專題，走到今天的 MedTrust | MedTrust — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/js/lab.js",
+      "evidence": [
+        ".deploy_git/js/lab.js",
+        "public/js/lab.js"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/js/lab.js",
+        "https://seraphforge.github.io/seraphforge.tw/js/lab.js"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/lab/",
+      "evidence": [
+        ".deploy_git/lab/index.html",
+        "public/lab/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/lab/",
+        "https://seraphforge.github.io/seraphforge.tw/lab/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/lab/"
+      ],
+      "title": "RYVÆN Lab — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/labs/",
+      "evidence": [
+        ".deploy_git/labs/index.html",
+        "public/labs/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/labs/",
+        "https://seraphforge.github.io/seraphforge.tw/labs/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/"
+      ],
+      "title": "Labs — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/labs/ctf-web-practice/",
+      "evidence": [
+        ".deploy_git/labs/ctf-web-practice/index.html",
+        "public/labs/ctf-web-practice/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/labs/ctf-web-practice/",
+        "https://seraphforge.github.io/seraphforge.tw/labs/ctf-web-practice/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/ctf-web-practice/"
+      ],
+      "title": "CTF Web Practice — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/labs/esp32-uart-test/",
+      "evidence": [
+        ".deploy_git/labs/esp32-uart-test/index.html",
+        "public/labs/esp32-uart-test/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/labs/esp32-uart-test/",
+        "https://seraphforge.github.io/seraphforge.tw/labs/esp32-uart-test/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/esp32-uart-test/"
+      ],
+      "title": "ESP32 UART Test — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/labs/medical-cybersecurity-research/",
+      "evidence": [
+        ".deploy_git/labs/medical-cybersecurity-research/index.html",
+        "public/labs/medical-cybersecurity-research/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/labs/medical-cybersecurity-research/",
+        "https://seraphforge.github.io/seraphforge.tw/labs/medical-cybersecurity-research/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/medical-cybersecurity-research/"
+      ],
+      "title": "Medical Cybersecurity Research — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/labs/ros2-topic-communication/",
+      "evidence": [
+        ".deploy_git/labs/ros2-topic-communication/index.html",
+        "public/labs/ros2-topic-communication/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/labs/ros2-topic-communication/",
+        "https://seraphforge.github.io/seraphforge.tw/labs/ros2-topic-communication/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/ros2-topic-communication/"
+      ],
+      "title": "ROS2 Topic Communication — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/labs/web-security/",
+      "evidence": [
+        ".deploy_git/labs/web-security/index.html",
+        "public/labs/web-security/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/labs/web-security/",
+        "https://seraphforge.github.io/seraphforge.tw/labs/web-security/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/web-security/"
+      ],
+      "title": "Web Security Notes — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/now/",
+      "evidence": [
+        ".deploy_git/now/index.html",
+        "public/now/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/now/",
+        "https://seraphforge.github.io/seraphforge.tw/now/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/now/"
+      ],
+      "title": "Now — Engineering Log — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/outcomes/",
+      "evidence": [
+        ".deploy_git/outcomes/index.html",
+        "public/outcomes/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/outcomes/",
+        "https://seraphforge.github.io/seraphforge.tw/outcomes/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/outcomes/"
+      ],
+      "title": "Outcomes — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/page/2/",
+      "evidence": [
+        ".deploy_git/page/2/index.html",
+        "public/page/2/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/page/2/",
+        "https://seraphforge.github.io/seraphforge.tw/page/2/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/page/2/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/projects/",
+      "evidence": [
+        ".deploy_git/projects/index.html",
+        "public/projects/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/projects/",
+        "https://seraphforge.github.io/seraphforge.tw/projects/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/projects/"
+      ],
+      "title": "專案 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/projects/autonomous-robot/",
+      "evidence": [
+        ".deploy_git/projects/autonomous-robot/index.html",
+        "public/projects/autonomous-robot/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/projects/autonomous-robot/",
+        "https://seraphforge.github.io/seraphforge.tw/projects/autonomous-robot/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/projects/autonomous-robot/"
+      ],
+      "title": "Autonomous Robot — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/projects/medical-cybersecurity/",
+      "evidence": [
+        ".deploy_git/projects/medical-cybersecurity/index.html",
+        "public/projects/medical-cybersecurity/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/projects/medical-cybersecurity/",
+        "https://seraphforge.github.io/seraphforge.tw/projects/medical-cybersecurity/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/projects/medical-cybersecurity/"
+      ],
+      "title": "Medical Cybersecurity — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/research/",
+      "evidence": [
+        ".deploy_git/research/index.html",
+        "public/research/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/research/",
+        "https://seraphforge.github.io/seraphforge.tw/research/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/research/"
+      ],
+      "title": "研究方向 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/resume/",
+      "evidence": [
+        "public/resume/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/resume/",
+        "https://seraphforge.github.io/seraphforge.tw/resume/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/resume/"
+      ],
+      "title": "Casper — Resume | RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/robots.txt",
+      "evidence": [
+        ".deploy_git/robots.txt",
+        "public/robots.txt"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/robots.txt",
+        "https://seraphforge.github.io/seraphforge.tw/robots.txt"
+      ],
+      "observed_canonicals": [],
+      "classification": "A",
+      "target": null,
+      "status": null,
+      "reason": "Same custom-domain URL is provided by the personal app.",
+      "review_required": false
+    },
+    {
+      "path": "/search.json",
+      "evidence": [
+        ".deploy_git/search.json",
+        "public/search.json"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/search.json",
+        "https://seraphforge.github.io/seraphforge.tw/search.json"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/search/",
+      "evidence": [
+        ".deploy_git/search/index.html",
+        "public/search/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/search/",
+        "https://seraphforge.github.io/seraphforge.tw/search/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/search/"
+      ],
+      "title": "Search — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "evidence": [
+        ".deploy_git/sitemap.xml",
+        "public/sitemap.xml"
+      ],
+      "kind": "asset",
+      "source_urls": [
+        "https://nagi.tw/sitemap.xml",
+        "https://seraphforge.github.io/seraphforge.tw/sitemap.xml"
+      ],
+      "observed_canonicals": [],
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy asset or machine endpoint; no article redirect. Retain in recovery artifact.",
+      "review_required": false
+    },
+    {
+      "path": "/systems/",
+      "evidence": [
+        ".deploy_git/systems/index.html",
+        "public/systems/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/systems/",
+        "https://seraphforge.github.io/seraphforge.tw/systems/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/systems/"
+      ],
+      "title": "工程系統 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/systems/embedded-secure-device/",
+      "evidence": [
+        ".deploy_git/systems/embedded-secure-device/index.html",
+        "public/systems/embedded-secure-device/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/systems/embedded-secure-device/",
+        "https://seraphforge.github.io/seraphforge.tw/systems/embedded-secure-device/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/systems/embedded-secure-device/"
+      ],
+      "title": "ESP32 Communication and Network Security Experiments — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/systems/home-lab-infrastructure/",
+      "evidence": [
+        ".deploy_git/systems/home-lab-infrastructure/index.html",
+        "public/systems/home-lab-infrastructure/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/systems/home-lab-infrastructure/",
+        "https://seraphforge.github.io/seraphforge.tw/systems/home-lab-infrastructure/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/systems/home-lab-infrastructure/"
+      ],
+      "title": "Home Lab Infrastructure — RYVÆN",
+      "article": false,
+      "language": "en",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/systems/home-lab/",
+      "evidence": [
+        ".deploy_git/systems/home-lab/index.html",
+        "public/systems/home-lab/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/systems/home-lab/",
+        "https://seraphforge.github.io/seraphforge.tw/systems/home-lab/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/systems/home-lab/"
+      ],
+      "title": "Home Lab — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/systems/medtrust/",
+      "evidence": [
+        ".deploy_git/systems/medtrust/index.html",
+        "public/systems/medtrust/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/systems/medtrust/",
+        "https://seraphforge.github.io/seraphforge.tw/systems/medtrust/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/systems/medtrust/"
+      ],
+      "title": "MedTrust — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/2026-資安大會/",
+      "evidence": [
+        ".deploy_git/tags/2026-資安大會/index.html",
+        "public/tags/2026-資安大會/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/2026-資安大會/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/2026-資安大會/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/2026-%E8%B3%87%E5%AE%89%E5%A4%A7%E6%9C%83/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/2026-Cybersecurity-Conference/",
+      "evidence": [
+        ".deploy_git/tags/2026-Cybersecurity-Conference/index.html",
+        "public/tags/2026-Cybersecurity-Conference/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/2026-Cybersecurity-Conference/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/2026-Cybersecurity-Conference/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/2026-Cybersecurity-Conference/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/比賽/",
+      "evidence": [
+        "public/tags/比賽/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/比賽/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/比賽/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/%E6%AF%94%E8%B3%BD/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/近況/",
+      "evidence": [
+        "public/tags/近況/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/近況/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/近況/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/%E8%BF%91%E6%B3%81/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/資安/",
+      "evidence": [
+        "public/tags/資安/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/資安/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/資安/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/%E8%B3%87%E5%AE%89/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/零信任/",
+      "evidence": [
+        ".deploy_git/tags/零信任/index.html",
+        "public/tags/零信任/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/零信任/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/零信任/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/%E9%9B%B6%E4%BF%A1%E4%BB%BB/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/醫療資安/",
+      "evidence": [
+        ".deploy_git/tags/醫療資安/index.html",
+        "public/tags/醫療資安/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/醫療資安/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/醫療資安/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/%E9%86%AB%E7%99%82%E8%B3%87%E5%AE%89/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/AI-Security/",
+      "evidence": [
+        ".deploy_git/tags/AI-Security/index.html",
+        "public/tags/AI-Security/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/AI-Security/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/AI-Security/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/AI-Security/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/AI-SOC/",
+      "evidence": [
+        ".deploy_git/tags/AI-SOC/index.html",
+        "public/tags/AI-SOC/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/AI-SOC/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/AI-SOC/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/AI-SOC/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Blue-Team/",
+      "evidence": [
+        ".deploy_git/tags/Blue-Team/index.html",
+        "public/tags/Blue-Team/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Blue-Team/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Blue-Team/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Blue-Team/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Career/",
+      "evidence": [
+        ".deploy_git/tags/Career/index.html",
+        "public/tags/Career/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Career/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Career/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Career/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Competition/",
+      "evidence": [
+        "public/tags/Competition/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Competition/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Competition/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Competition/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Compliance/",
+      "evidence": [
+        ".deploy_git/tags/Compliance/index.html",
+        "public/tags/Compliance/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Compliance/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Compliance/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Compliance/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/CTF/",
+      "evidence": [
+        ".deploy_git/tags/CTF/index.html",
+        "public/tags/CTF/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/CTF/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/CTF/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/CTF/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/CYBERSEC/",
+      "evidence": [
+        ".deploy_git/tags/CYBERSEC/index.html",
+        "public/tags/CYBERSEC/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/CYBERSEC/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/CYBERSEC/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/CYBERSEC/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Cybersecurity/",
+      "evidence": [
+        ".deploy_git/tags/Cybersecurity/index.html",
+        "public/tags/Cybersecurity/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Cybersecurity/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Cybersecurity/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Cybersecurity/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/DFIR/",
+      "evidence": [
+        ".deploy_git/tags/DFIR/index.html",
+        "public/tags/DFIR/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/DFIR/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/DFIR/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/DFIR/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Edge-AI/",
+      "evidence": [
+        "public/tags/Edge-AI/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Edge-AI/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Edge-AI/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Edge-AI/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Financial-Security/",
+      "evidence": [
+        ".deploy_git/tags/Financial-Security/index.html",
+        "public/tags/Financial-Security/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Financial-Security/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Financial-Security/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Financial-Security/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/FRC/",
+      "evidence": [
+        "public/tags/FRC/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/FRC/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/FRC/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/FRC/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Healthcare/",
+      "evidence": [
+        ".deploy_git/tags/Healthcare/index.html",
+        "public/tags/Healthcare/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Healthcare/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Healthcare/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Healthcare/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Homelab/",
+      "evidence": [
+        "public/tags/Homelab/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Homelab/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Homelab/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Homelab/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Incident-Response/",
+      "evidence": [
+        ".deploy_git/tags/Incident-Response/index.html",
+        "public/tags/Incident-Response/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Incident-Response/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Incident-Response/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Incident-Response/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/InfoSec-Taiwan/",
+      "evidence": [
+        ".deploy_git/tags/InfoSec-Taiwan/index.html",
+        "public/tags/InfoSec-Taiwan/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/InfoSec-Taiwan/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/InfoSec-Taiwan/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/InfoSec-Taiwan/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Malware-Analysis/",
+      "evidence": [
+        ".deploy_git/tags/Malware-Analysis/index.html",
+        "public/tags/Malware-Analysis/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Malware-Analysis/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Malware-Analysis/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Malware-Analysis/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Medical-Cybersecurity/",
+      "evidence": [
+        ".deploy_git/tags/Medical-Cybersecurity/index.html",
+        "public/tags/Medical-Cybersecurity/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Medical-Cybersecurity/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Medical-Cybersecurity/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Medical-Cybersecurity/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Medical-Security/",
+      "evidence": [
+        ".deploy_git/tags/Medical-Security/index.html",
+        "public/tags/Medical-Security/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Medical-Security/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Medical-Security/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Medical-Security/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/OT-資安/",
+      "evidence": [
+        ".deploy_git/tags/OT-資安/index.html",
+        "public/tags/OT-資安/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/OT-資安/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/OT-資安/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/OT-%E8%B3%87%E5%AE%89/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/OT-Security/",
+      "evidence": [
+        ".deploy_git/tags/OT-Security/index.html",
+        "public/tags/OT-Security/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/OT-Security/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/OT-Security/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/OT-Security/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Personal/",
+      "evidence": [
+        ".deploy_git/tags/Personal/index.html",
+        "public/tags/Personal/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Personal/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Personal/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Personal/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Post-Quantum-Cryptography/",
+      "evidence": [
+        ".deploy_git/tags/Post-Quantum-Cryptography/index.html",
+        "public/tags/Post-Quantum-Cryptography/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Post-Quantum-Cryptography/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Post-Quantum-Cryptography/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Post-Quantum-Cryptography/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Raspberry-Pi/",
+      "evidence": [
+        "public/tags/Raspberry-Pi/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Raspberry-Pi/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Raspberry-Pi/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Raspberry-Pi/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Responsible-Security-Culture/",
+      "evidence": [
+        ".deploy_git/tags/Responsible-Security-Culture/index.html",
+        "public/tags/Responsible-Security-Culture/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Responsible-Security-Culture/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Responsible-Security-Culture/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Responsible-Security-Culture/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Retail/",
+      "evidence": [
+        ".deploy_git/tags/Retail/index.html",
+        "public/tags/Retail/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Retail/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Retail/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Retail/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Robotics/",
+      "evidence": [
+        "public/tags/Robotics/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Robotics/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Robotics/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Robotics/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Security-Culture/",
+      "evidence": [
+        ".deploy_git/tags/Security-Culture/index.html",
+        "public/tags/Security-Culture/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Security-Culture/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Security-Culture/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Security-Culture/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/SME-Security/",
+      "evidence": [
+        ".deploy_git/tags/SME-Security/index.html",
+        "public/tags/SME-Security/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/SME-Security/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/SME-Security/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/SME-Security/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/SOC/",
+      "evidence": [
+        ".deploy_git/tags/SOC/index.html",
+        "public/tags/SOC/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/SOC/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/SOC/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/SOC/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Students/",
+      "evidence": [
+        ".deploy_git/tags/Students/index.html",
+        "public/tags/Students/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Students/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Students/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Students/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Windows-Forensics/",
+      "evidence": [
+        ".deploy_git/tags/Windows-Forensics/index.html",
+        "public/tags/Windows-Forensics/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Windows-Forensics/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Windows-Forensics/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Windows-Forensics/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Windows-Malware/",
+      "evidence": [
+        ".deploy_git/tags/Windows-Malware/index.html",
+        "public/tags/Windows-Malware/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Windows-Malware/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Windows-Malware/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Windows-Malware/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Wireshark/",
+      "evidence": [
+        ".deploy_git/tags/Wireshark/index.html",
+        "public/tags/Wireshark/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Wireshark/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Wireshark/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Wireshark/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/tags/Zero-Trust/",
+      "evidence": [
+        ".deploy_git/tags/Zero-Trust/index.html",
+        "public/tags/Zero-Trust/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/tags/Zero-Trust/",
+        "https://seraphforge.github.io/seraphforge.tw/tags/Zero-Trust/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/tags/Zero-Trust/"
+      ],
+      "title": "RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/timeline/",
+      "evidence": [
+        ".deploy_git/timeline/index.html",
+        "public/timeline/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/timeline/",
+        "https://seraphforge.github.io/seraphforge.tw/timeline/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/timeline/"
+      ],
+      "title": "Timeline — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/uses/",
+      "evidence": [
+        ".deploy_git/uses/index.html",
+        "public/uses/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/uses/",
+        "https://seraphforge.github.io/seraphforge.tw/uses/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/uses/"
+      ],
+      "title": "技術環境 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/writing/",
+      "evidence": [
+        ".deploy_git/writing/index.html",
+        "public/writing/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/writing/",
+        "https://seraphforge.github.io/seraphforge.tw/writing/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/writing/"
+      ],
+      "title": "Writing — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/zh/",
+      "evidence": [
+        ".deploy_git/zh/index.html",
+        "public/zh/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/zh/"
+      ],
+      "title": "首頁 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/2026/05/09/2026-security-conference/",
+      "evidence": [
+        ".deploy_git/zh/2026/05/09/2026-security-conference/index.html",
+        "public/zh/2026/05/09/2026-security-conference/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/2026/05/09/2026-security-conference/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/05/09/2026-security-conference/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/05/09/2026-security-conference/"
+      ],
+      "title": "2026 資安大會參訪心得：從展場看見資安產業的真實樣貌 — RYVÆN",
+      "article": true,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/2026-security-conference/",
+      "status": 301,
+      "reason": "Exact migrated article identity and zh edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/zh/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/",
+      "evidence": [
+        ".deploy_git/zh/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/index.html",
+        "public/zh/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/"
+      ],
+      "title": "護理師讓我重新思考醫療資安 — RYVÆN",
+      "article": true,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/nurse-made-me-rethink-medical-cybersecurity/",
+      "status": 301,
+      "reason": "Exact migrated article identity and zh edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/zh/2026/07/07/infosec-taiwan-2026-student-industry-gap/",
+      "evidence": [
+        ".deploy_git/zh/2026/07/07/infosec-taiwan-2026-student-industry-gap/index.html",
+        "public/zh/2026/07/07/infosec-taiwan-2026-student-industry-gap/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/2026/07/07/infosec-taiwan-2026-student-industry-gap/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/07/07/infosec-taiwan-2026-student-industry-gap/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/07/07/infosec-taiwan-2026-student-industry-gap/"
+      ],
+      "title": "從 InfoSec Taiwan 2026，我看見學生與企業之間的資安落差 — RYVÆN",
+      "article": true,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/infosec-taiwan-2026-student-industry-gap/",
+      "status": 301,
+      "reason": "Exact migrated article identity and zh edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/zh/2026/07/08/ctf-meets-malware-analysis-windows/",
+      "evidence": [
+        ".deploy_git/zh/2026/07/08/ctf-meets-malware-analysis-windows/index.html",
+        "public/zh/2026/07/08/ctf-meets-malware-analysis-windows/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/2026/07/08/ctf-meets-malware-analysis-windows/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/07/08/ctf-meets-malware-analysis-windows/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/07/08/ctf-meets-malware-analysis-windows/"
+      ],
+      "title": "當 CTF 遇上 Malware Analysis：我的第一次 Windows 惡意程式分析 — RYVÆN",
+      "article": true,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/ctf-meets-malware-analysis-windows/",
+      "status": 301,
+      "reason": "Exact migrated article identity and zh edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/zh/2026/07/18/retail-work-sme-security-culture/",
+      "evidence": [
+        ".deploy_git/zh/2026/07/18/retail-work-sme-security-culture/index.html",
+        "public/zh/2026/07/18/retail-work-sme-security-culture/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/2026/07/18/retail-work-sme-security-culture/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/07/18/retail-work-sme-security-culture/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/07/18/retail-work-sme-security-culture/"
+      ],
+      "title": "從零售業打工，我看見中小企業最容易忽略的資訊安全 — RYVÆN",
+      "article": true,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/retail-work-sme-security-culture/",
+      "status": 301,
+      "reason": "Exact migrated article identity and zh edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/zh/2026/09/04/recent-projects-and-life-update/",
+      "evidence": [
+        "public/zh/2026/09/04/recent-projects-and-life-update/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/2026/09/04/recent-projects-and-life-update/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/09/04/recent-projects-and-life-update/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/zh/2026/09/04/recent-projects-and-life-update/"
+      ],
+      "title": "好久沒更新了，來記一下最近到底在幹嘛 — RYVÆN",
+      "article": true,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/recent-projects-and-life-update/",
+      "status": 301,
+      "reason": "Exact migrated article identity and zh edition; language derived from rendered HTML.",
+      "review_required": false
+    },
+    {
+      "path": "/zh/about/",
+      "evidence": [
+        ".deploy_git/zh/about/index.html",
+        "public/zh/about/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/about/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/about/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/about",
+        "https://seraphforge.github.io/seraphforge.tw/zh/about/"
+      ],
+      "title": "關於 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/about/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/zh/archives/",
+      "evidence": [
+        ".deploy_git/zh/archives/index.html",
+        "public/zh/archives/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/archives/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/archives/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/journal/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/archives/"
+      ],
+      "title": "探索筆記索引 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/archive/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/zh/contact/",
+      "evidence": [
+        ".deploy_git/zh/contact/index.html",
+        "public/zh/contact/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/contact/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/contact/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/contact",
+        "https://seraphforge.github.io/seraphforge.tw/zh/contact/"
+      ],
+      "title": "Contact — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/dashboard/",
+      "evidence": [
+        ".deploy_git/zh/dashboard/index.html",
+        "public/zh/dashboard/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/dashboard/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/dashboard/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/dashboard",
+        "https://seraphforge.github.io/seraphforge.tw/zh/dashboard/"
+      ],
+      "title": "Dashboard — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/experience/",
+      "evidence": [
+        ".deploy_git/zh/experience/index.html",
+        "public/zh/experience/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/experience/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/"
+      ],
+      "title": "參賽與研習紀錄 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/experience/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    },
+    {
+      "path": "/zh/experience/awards/",
+      "evidence": [
+        ".deploy_git/zh/experience/awards/index.html",
+        "public/zh/experience/awards/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/experience/awards/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/awards/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/awards",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/awards/"
+      ],
+      "title": "獎項紀錄 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/experience/certifications/",
+      "evidence": [
+        ".deploy_git/zh/experience/certifications/index.html",
+        "public/zh/experience/certifications/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/experience/certifications/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/certifications/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/certifications",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/certifications/"
+      ],
+      "title": "證照紀錄 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/experience/ctf/",
+      "evidence": [
+        ".deploy_git/zh/experience/ctf/index.html",
+        "public/zh/experience/ctf/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/experience/ctf/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/ctf/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/ctf",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/ctf/"
+      ],
+      "title": "CTF 經歷 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/experience/research/",
+      "evidence": [
+        ".deploy_git/zh/experience/research/index.html",
+        "public/zh/experience/research/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/experience/research/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/research/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/research",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/research/"
+      ],
+      "title": "研究方向 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/experience/workshops/",
+      "evidence": [
+        ".deploy_git/zh/experience/workshops/index.html",
+        "public/zh/experience/workshops/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/experience/workshops/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/workshops/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/experience/workshops",
+        "https://seraphforge.github.io/seraphforge.tw/zh/experience/workshops/"
+      ],
+      "title": "研習活動 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/labs/",
+      "evidence": [
+        ".deploy_git/zh/labs/index.html",
+        "public/zh/labs/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/labs/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/"
+      ],
+      "title": "實驗室 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/labs/ctf-web-practice/",
+      "evidence": [
+        ".deploy_git/zh/labs/ctf-web-practice/index.html",
+        "public/zh/labs/ctf-web-practice/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/labs/ctf-web-practice/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/ctf-web-practice/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/ctf-web-practice",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/ctf-web-practice/"
+      ],
+      "title": "CTF Web Practice — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/labs/esp32-uart-test/",
+      "evidence": [
+        ".deploy_git/zh/labs/esp32-uart-test/index.html",
+        "public/zh/labs/esp32-uart-test/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/labs/esp32-uart-test/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/esp32-uart-test/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/esp32-uart-test",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/esp32-uart-test/"
+      ],
+      "title": "ESP32 UART Test — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/labs/medical-cybersecurity-research/",
+      "evidence": [
+        ".deploy_git/zh/labs/medical-cybersecurity-research/index.html",
+        "public/zh/labs/medical-cybersecurity-research/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/labs/medical-cybersecurity-research/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/medical-cybersecurity-research/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/medical-cybersecurity-research",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/medical-cybersecurity-research/"
+      ],
+      "title": "Medical Cybersecurity Research — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/labs/ros2-topic-communication/",
+      "evidence": [
+        ".deploy_git/zh/labs/ros2-topic-communication/index.html",
+        "public/zh/labs/ros2-topic-communication/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/labs/ros2-topic-communication/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/ros2-topic-communication/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/ros2-topic-communication",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/ros2-topic-communication/"
+      ],
+      "title": "ROS2 Topic Communication — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/labs/web-security/",
+      "evidence": [
+        ".deploy_git/zh/labs/web-security/index.html",
+        "public/zh/labs/web-security/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/labs/web-security/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/web-security/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/labs/web-security",
+        "https://seraphforge.github.io/seraphforge.tw/zh/labs/web-security/"
+      ],
+      "title": "Web Security 筆記 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/now/",
+      "evidence": [
+        ".deploy_git/zh/now/index.html",
+        "public/zh/now/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/now/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/now/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/now",
+        "https://seraphforge.github.io/seraphforge.tw/zh/now/"
+      ],
+      "title": "目前進度 — 工程紀錄 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/outcomes/",
+      "evidence": [
+        ".deploy_git/zh/outcomes/index.html",
+        "public/zh/outcomes/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/outcomes/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/outcomes/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/outcomes",
+        "https://seraphforge.github.io/seraphforge.tw/zh/outcomes/"
+      ],
+      "title": "成果紀錄 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/projects/",
+      "evidence": [
+        ".deploy_git/zh/projects/index.html",
+        "public/zh/projects/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/projects/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/projects/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/projects",
+        "https://seraphforge.github.io/seraphforge.tw/zh/projects/"
+      ],
+      "title": "案例研究 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/projects/autonomous-robot/",
+      "evidence": [
+        ".deploy_git/zh/projects/autonomous-robot/index.html",
+        "public/zh/projects/autonomous-robot/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/projects/autonomous-robot/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/projects/autonomous-robot/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/projects/autonomous-robot",
+        "https://seraphforge.github.io/seraphforge.tw/zh/projects/autonomous-robot/"
+      ],
+      "title": "Autonomous Robot — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/projects/medical-cybersecurity/",
+      "evidence": [
+        ".deploy_git/zh/projects/medical-cybersecurity/index.html",
+        "public/zh/projects/medical-cybersecurity/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/projects/medical-cybersecurity/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/projects/medical-cybersecurity/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/projects/medical-cybersecurity",
+        "https://seraphforge.github.io/seraphforge.tw/zh/projects/medical-cybersecurity/"
+      ],
+      "title": "Medical Cybersecurity — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/systems/",
+      "evidence": [
+        ".deploy_git/zh/systems/index.html",
+        "public/zh/systems/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/systems/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/systems/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/systems",
+        "https://seraphforge.github.io/seraphforge.tw/zh/systems/"
+      ],
+      "title": "工程系統 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/systems/embedded-secure-device/",
+      "evidence": [
+        ".deploy_git/zh/systems/embedded-secure-device/index.html",
+        "public/zh/systems/embedded-secure-device/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/systems/embedded-secure-device/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/systems/embedded-secure-device/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/systems/embedded-secure-device",
+        "https://seraphforge.github.io/seraphforge.tw/zh/systems/embedded-secure-device/"
+      ],
+      "title": "ESP32 通訊資安與網路安全實驗 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/systems/home-lab-infrastructure/",
+      "evidence": [
+        ".deploy_git/zh/systems/home-lab-infrastructure/index.html",
+        "public/zh/systems/home-lab-infrastructure/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/systems/home-lab-infrastructure/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/systems/home-lab-infrastructure/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/systems/home-lab-infrastructure",
+        "https://seraphforge.github.io/seraphforge.tw/zh/systems/home-lab-infrastructure/"
+      ],
+      "title": "Home Lab Infrastructure — 個人基礎設施與資安實驗環境 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/timeline/",
+      "evidence": [
+        ".deploy_git/zh/timeline/index.html",
+        "public/zh/timeline/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/timeline/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/timeline/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/timeline",
+        "https://seraphforge.github.io/seraphforge.tw/zh/timeline/"
+      ],
+      "title": "時間軸 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "D",
+      "target": null,
+      "status": null,
+      "reason": "Legacy standalone page/index without an exact retained successor; proposed retirement, not authorization to delete.",
+      "review_required": true
+    },
+    {
+      "path": "/zh/writing/",
+      "evidence": [
+        ".deploy_git/zh/writing/index.html",
+        "public/zh/writing/index.html"
+      ],
+      "kind": "html",
+      "source_urls": [
+        "https://nagi.tw/zh/writing/",
+        "https://seraphforge.github.io/seraphforge.tw/zh/writing/"
+      ],
+      "observed_canonicals": [
+        "https://seraphforge.github.io/seraphforge.tw/writing",
+        "https://seraphforge.github.io/seraphforge.tw/zh/writing/"
+      ],
+      "title": "文章 — RYVÆN",
+      "article": false,
+      "language": "zh-Hant",
+      "classification": "B",
+      "target": "https://notes.nagi.tw/articles/",
+      "status": 301,
+      "reason": "Direct successor for this legacy page or feed.",
+      "review_required": false
+    }
+  ],
+  "deny_routes": [
+    {
+      "path": "/articles/from-nihscsed-to-control-team/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "No route in either Astro output; no redirect to any article."
+    },
+    {
+      "path": "/articles/from-nihscsed-to-control-team/en/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "No route in either Astro output; no redirect to any article."
+    },
+    {
+      "path": "/articles/from-nihscsed-to-control-team/ja/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "No route in either Astro output; no redirect to any article."
+    },
+    {
+      "path": "/articles/taiwan-student-cybersecurity-growing-apart/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "No route in either Astro output; no redirect to any article."
+    },
+    {
+      "path": "/articles/taiwan-student-cybersecurity-growing-apart/en/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "No route in either Astro output; no redirect to any article."
+    },
+    {
+      "path": "/articles/taiwan-student-cybersecurity-growing-apart/ja/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "No route in either Astro output; no redirect to any article."
+    },
+    {
+      "path": "/2026/05/16/from-nihscsed-to-control-team/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "Source-only unpublished/withdrawn alias; not evidence of a public emitted route."
+    },
+    {
+      "path": "/zh/2026/05/16/from-nihscsed-to-control-team/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "Source-only unpublished/withdrawn alias; not evidence of a public emitted route."
+    },
+    {
+      "path": "/2026/06/23/taiwan-student-cybersecurity-growing-apart/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "Source-only unpublished/withdrawn alias; not evidence of a public emitted route."
+    },
+    {
+      "path": "/ja/2026/06/23/taiwan-student-cybersecurity-growing-apart/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "Source-only unpublished/withdrawn alias; not evidence of a public emitted route."
+    },
+    {
+      "path": "/zh/2026/06/23/taiwan-student-cybersecurity-growing-apart/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "Source-only unpublished/withdrawn alias; not evidence of a public emitted route."
+    },
+    {
+      "path": "/ja/2026/05/16/from-nihscsed-to-control-team/",
+      "classification": "C",
+      "target": null,
+      "status": 404,
+      "reason": "Source-only unpublished/withdrawn alias; not evidence of a public emitted route."
+    }
+  ],
+  "redirect_candidates": [
+    {
+      "source_url": "https://nagi.tw/2026/05/09/2026-security-conference/",
+      "target_url": "https://notes.nagi.tw/articles/2026-security-conference/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/05/09/2026-security-conference/index.html",
+      "target_url": "https://notes.nagi.tw/articles/2026-security-conference/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/05/09/2026-security-conference",
+      "target_url": "https://notes.nagi.tw/articles/2026-security-conference/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/",
+      "target_url": "https://notes.nagi.tw/articles/nurse-made-me-rethink-medical-cybersecurity/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/index.html",
+      "target_url": "https://notes.nagi.tw/articles/nurse-made-me-rethink-medical-cybersecurity/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/06/23/nurse-made-me-rethink-medical-cybersecurity",
+      "target_url": "https://notes.nagi.tw/articles/nurse-made-me-rethink-medical-cybersecurity/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/07/07/infosec-taiwan-2026-student-industry-gap/",
+      "target_url": "https://notes.nagi.tw/articles/infosec-taiwan-2026-student-industry-gap/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/07/07/infosec-taiwan-2026-student-industry-gap/index.html",
+      "target_url": "https://notes.nagi.tw/articles/infosec-taiwan-2026-student-industry-gap/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/07/07/infosec-taiwan-2026-student-industry-gap",
+      "target_url": "https://notes.nagi.tw/articles/infosec-taiwan-2026-student-industry-gap/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/07/08/ctf-meets-malware-analysis-windows/",
+      "target_url": "https://notes.nagi.tw/articles/ctf-meets-malware-analysis-windows/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/07/08/ctf-meets-malware-analysis-windows/index.html",
+      "target_url": "https://notes.nagi.tw/articles/ctf-meets-malware-analysis-windows/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/07/08/ctf-meets-malware-analysis-windows",
+      "target_url": "https://notes.nagi.tw/articles/ctf-meets-malware-analysis-windows/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/07/18/retail-work-sme-security-culture/",
+      "target_url": "https://notes.nagi.tw/articles/retail-work-sme-security-culture/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/07/18/retail-work-sme-security-culture/index.html",
+      "target_url": "https://notes.nagi.tw/articles/retail-work-sme-security-culture/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/07/18/retail-work-sme-security-culture",
+      "target_url": "https://notes.nagi.tw/articles/retail-work-sme-security-culture/en/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/08/17/frc-engineering-team/",
+      "target_url": "https://notes.nagi.tw/articles/frc-engineering-team/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/08/17/frc-engineering-team/index.html",
+      "target_url": "https://notes.nagi.tw/articles/frc-engineering-team/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/2026/08/17/frc-engineering-team",
+      "target_url": "https://notes.nagi.tw/articles/frc-engineering-team/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/about/",
+      "target_url": "https://notes.nagi.tw/about/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/about/index.html",
+      "target_url": "https://notes.nagi.tw/about/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/about",
+      "target_url": "https://notes.nagi.tw/about/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/archive/",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/archive/index.html",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/archive",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/archives/",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/archives/index.html",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/archives",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/en/about/",
+      "target_url": "https://notes.nagi.tw/about/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/en/about/index.html",
+      "target_url": "https://notes.nagi.tw/about/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/en/about",
+      "target_url": "https://notes.nagi.tw/about/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/en/archive/",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/en/archive/index.html",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/en/archive",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/en/experience/",
+      "target_url": "https://notes.nagi.tw/experience/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/en/experience/index.html",
+      "target_url": "https://notes.nagi.tw/experience/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/en/experience",
+      "target_url": "https://notes.nagi.tw/experience/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/experience/",
+      "target_url": "https://notes.nagi.tw/experience/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/experience/index.html",
+      "target_url": "https://notes.nagi.tw/experience/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/experience",
+      "target_url": "https://notes.nagi.tw/experience/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/feed.xml",
+      "target_url": "https://notes.nagi.tw/rss.xml",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/writing/",
+      "target_url": "https://notes.nagi.tw/articles/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/writing/index.html",
+      "target_url": "https://notes.nagi.tw/articles/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/writing",
+      "target_url": "https://notes.nagi.tw/articles/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/05/09/2026-security-conference/",
+      "target_url": "https://notes.nagi.tw/articles/2026-security-conference/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/05/09/2026-security-conference/index.html",
+      "target_url": "https://notes.nagi.tw/articles/2026-security-conference/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/05/09/2026-security-conference",
+      "target_url": "https://notes.nagi.tw/articles/2026-security-conference/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/",
+      "target_url": "https://notes.nagi.tw/articles/nurse-made-me-rethink-medical-cybersecurity/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/06/23/nurse-made-me-rethink-medical-cybersecurity/index.html",
+      "target_url": "https://notes.nagi.tw/articles/nurse-made-me-rethink-medical-cybersecurity/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/06/23/nurse-made-me-rethink-medical-cybersecurity",
+      "target_url": "https://notes.nagi.tw/articles/nurse-made-me-rethink-medical-cybersecurity/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/07/07/infosec-taiwan-2026-student-industry-gap/",
+      "target_url": "https://notes.nagi.tw/articles/infosec-taiwan-2026-student-industry-gap/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/07/07/infosec-taiwan-2026-student-industry-gap/index.html",
+      "target_url": "https://notes.nagi.tw/articles/infosec-taiwan-2026-student-industry-gap/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/07/07/infosec-taiwan-2026-student-industry-gap",
+      "target_url": "https://notes.nagi.tw/articles/infosec-taiwan-2026-student-industry-gap/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/07/08/ctf-meets-malware-analysis-windows/",
+      "target_url": "https://notes.nagi.tw/articles/ctf-meets-malware-analysis-windows/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/07/08/ctf-meets-malware-analysis-windows/index.html",
+      "target_url": "https://notes.nagi.tw/articles/ctf-meets-malware-analysis-windows/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/07/08/ctf-meets-malware-analysis-windows",
+      "target_url": "https://notes.nagi.tw/articles/ctf-meets-malware-analysis-windows/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/07/18/retail-work-sme-security-culture/",
+      "target_url": "https://notes.nagi.tw/articles/retail-work-sme-security-culture/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/07/18/retail-work-sme-security-culture/index.html",
+      "target_url": "https://notes.nagi.tw/articles/retail-work-sme-security-culture/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/07/18/retail-work-sme-security-culture",
+      "target_url": "https://notes.nagi.tw/articles/retail-work-sme-security-culture/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/09/04/recent-projects-and-life-update/",
+      "target_url": "https://notes.nagi.tw/articles/recent-projects-and-life-update/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/09/04/recent-projects-and-life-update/index.html",
+      "target_url": "https://notes.nagi.tw/articles/recent-projects-and-life-update/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/2026/09/04/recent-projects-and-life-update",
+      "target_url": "https://notes.nagi.tw/articles/recent-projects-and-life-update/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/about/",
+      "target_url": "https://notes.nagi.tw/about/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/about/index.html",
+      "target_url": "https://notes.nagi.tw/about/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/about",
+      "target_url": "https://notes.nagi.tw/about/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/archives/",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/archives/index.html",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/archives",
+      "target_url": "https://notes.nagi.tw/archive/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/experience/",
+      "target_url": "https://notes.nagi.tw/experience/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/experience/index.html",
+      "target_url": "https://notes.nagi.tw/experience/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/experience",
+      "target_url": "https://notes.nagi.tw/experience/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/writing/",
+      "target_url": "https://notes.nagi.tw/articles/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/writing/index.html",
+      "target_url": "https://notes.nagi.tw/articles/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    },
+    {
+      "source_url": "https://nagi.tw/zh/writing",
+      "target_url": "https://notes.nagi.tw/articles/",
+      "status_code": 301,
+      "preserve_query_string": true,
+      "include_subdomains": false,
+      "subpath_matching": false,
+      "preserve_path_suffix": false
+    }
+  ]
+}

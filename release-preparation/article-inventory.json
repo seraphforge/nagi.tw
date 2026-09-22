@@ -1,0 +1,592 @@
+{
+  "current": [
+    {
+      "file": "notes.nagi.tw\\articles\\ctf\\ctf-meets-malware-analysis-windows.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/ctf-meets-malware-analysis-windows/en/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\ctf\\ctf-meets-malware-analysis-windows.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/ctf-meets-malware-analysis-windows/ja/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\ctf\\ctf-meets-malware-analysis-windows.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/ctf-meets-malware-analysis-windows/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\engineering\\frc-engineering-team.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/frc-engineering-team/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\from-nihscsed-to-control-team.en.md",
+      "lang": "en",
+      "published": false,
+      "route": "/articles/from-nihscsed-to-control-team/en/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\from-nihscsed-to-control-team.ja.md",
+      "lang": "ja",
+      "published": false,
+      "route": "/articles/from-nihscsed-to-control-team/ja/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\from-nihscsed-to-control-team.md",
+      "lang": "zh",
+      "published": false,
+      "route": "/articles/from-nihscsed-to-control-team/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\not-everyone-has-to-walk-the-same-road.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/not-everyone-has-to-walk-the-same-road/ja/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\not-everyone-has-to-walk-the-same-road.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/not-everyone-has-to-walk-the-same-road/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\prologue-the-people-i-met-along-the-way.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/prologue-the-people-i-met-along-the-way/ja/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\prologue-the-people-i-met-along-the-way.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/prologue-the-people-i-met-along-the-way/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\ten-years-from-now-dont-forget-who-you-are-now.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/ten-years-from-now-dont-forget-who-you-are-now/ja/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\ten-years-from-now-dont-forget-who-you-are-now.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/ten-years-from-now-dont-forget-who-you-are-now/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\why-i-still-use-codex.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/why-i-still-use-codex/ja/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\personal\\why-i-still-use-codex.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/why-i-still-use-codex/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\projects\\recent-projects-and-life-update.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/recent-projects-and-life-update/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\research\\infosec-taiwan-2026-student-industry-gap.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/infosec-taiwan-2026-student-industry-gap/en/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\research\\infosec-taiwan-2026-student-industry-gap.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/infosec-taiwan-2026-student-industry-gap/ja/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\research\\infosec-taiwan-2026-student-industry-gap.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/infosec-taiwan-2026-student-industry-gap/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\research\\nurse-made-me-rethink-medical-cybersecurity.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/nurse-made-me-rethink-medical-cybersecurity/en/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\research\\nurse-made-me-rethink-medical-cybersecurity.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/nurse-made-me-rethink-medical-cybersecurity/ja/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\research\\nurse-made-me-rethink-medical-cybersecurity.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/nurse-made-me-rethink-medical-cybersecurity/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\security\\2026-security-conference.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/2026-security-conference/en/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\security\\2026-security-conference.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/2026-security-conference/ja/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\security\\2026-security-conference.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/2026-security-conference/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\security\\retail-work-sme-security-culture.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/retail-work-sme-security-culture/en/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\security\\retail-work-sme-security-culture.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/retail-work-sme-security-culture/ja/"
+    },
+    {
+      "file": "notes.nagi.tw\\articles\\security\\retail-work-sme-security-culture.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/retail-work-sme-security-culture/"
+    }
+  ],
+  "preSplitSnapshot": [
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\ctf\\ctf-meets-malware-analysis-windows.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/ctf-meets-malware-analysis-windows/en/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\ctf\\ctf-meets-malware-analysis-windows.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/ctf-meets-malware-analysis-windows/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\ctf\\ctf-meets-malware-analysis-windows.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/ctf-meets-malware-analysis-windows/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\engineering\\frc-engineering-team.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/frc-engineering-team/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\from-nihscsed-to-control-team.en.md",
+      "lang": "en",
+      "published": false,
+      "route": "/articles/from-nihscsed-to-control-team/en/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\from-nihscsed-to-control-team.ja.md",
+      "lang": "ja",
+      "published": false,
+      "route": "/articles/from-nihscsed-to-control-team/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\from-nihscsed-to-control-team.md",
+      "lang": "zh",
+      "published": false,
+      "route": "/articles/from-nihscsed-to-control-team/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\not-everyone-has-to-walk-the-same-road.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/not-everyone-has-to-walk-the-same-road/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\not-everyone-has-to-walk-the-same-road.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/not-everyone-has-to-walk-the-same-road/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\prologue-the-people-i-met-along-the-way.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/prologue-the-people-i-met-along-the-way/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\prologue-the-people-i-met-along-the-way.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/prologue-the-people-i-met-along-the-way/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\ten-years-from-now-dont-forget-who-you-are-now.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/ten-years-from-now-dont-forget-who-you-are-now/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\ten-years-from-now-dont-forget-who-you-are-now.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/ten-years-from-now-dont-forget-who-you-are-now/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\why-i-still-use-codex.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/why-i-still-use-codex/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\personal\\why-i-still-use-codex.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/why-i-still-use-codex/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\projects\\recent-projects-and-life-update.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/recent-projects-and-life-update/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\research\\infosec-taiwan-2026-student-industry-gap.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/infosec-taiwan-2026-student-industry-gap/en/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\research\\infosec-taiwan-2026-student-industry-gap.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/infosec-taiwan-2026-student-industry-gap/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\research\\infosec-taiwan-2026-student-industry-gap.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/infosec-taiwan-2026-student-industry-gap/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\research\\nurse-made-me-rethink-medical-cybersecurity.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/nurse-made-me-rethink-medical-cybersecurity/en/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\research\\nurse-made-me-rethink-medical-cybersecurity.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/nurse-made-me-rethink-medical-cybersecurity/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\research\\nurse-made-me-rethink-medical-cybersecurity.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/nurse-made-me-rethink-medical-cybersecurity/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\research\\taiwan-student-cybersecurity-growing-apart.en.md",
+      "lang": "en",
+      "published": false,
+      "route": "/articles/taiwan-student-cybersecurity-growing-apart/en/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\research\\taiwan-student-cybersecurity-growing-apart.ja.md",
+      "lang": "ja",
+      "published": false,
+      "route": "/articles/taiwan-student-cybersecurity-growing-apart/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\research\\taiwan-student-cybersecurity-growing-apart.md",
+      "lang": "zh",
+      "published": false,
+      "route": "/articles/taiwan-student-cybersecurity-growing-apart/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\security\\2026-security-conference.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/2026-security-conference/en/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\security\\2026-security-conference.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/2026-security-conference/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\security\\2026-security-conference.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/2026-security-conference/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\security\\retail-work-sme-security-culture.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/retail-work-sme-security-culture/en/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\security\\retail-work-sme-security-culture.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/retail-work-sme-security-culture/ja/"
+    },
+    {
+      "file": ".tmp\\site-split-backup-2026-09-16T17-22-15-957Z\\notes\\files\\articles\\security\\retail-work-sme-security-culture.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/retail-work-sme-security-culture/"
+    }
+  ],
+  "committed": [
+    {
+      "file": "articles/ctf/ctf-meets-malware-analysis-windows.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/ctf-meets-malware-analysis-windows/en/"
+    },
+    {
+      "file": "articles/ctf/ctf-meets-malware-analysis-windows.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/ctf-meets-malware-analysis-windows/ja/"
+    },
+    {
+      "file": "articles/ctf/ctf-meets-malware-analysis-windows.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/ctf-meets-malware-analysis-windows/"
+    },
+    {
+      "file": "articles/engineering/frc-engineering-team.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/frc-engineering-team/"
+    },
+    {
+      "file": "articles/personal/from-nihscsed-to-control-team.en.md",
+      "lang": "en",
+      "published": false,
+      "route": "/articles/from-nihscsed-to-control-team/en/"
+    },
+    {
+      "file": "articles/personal/from-nihscsed-to-control-team.ja.md",
+      "lang": "ja",
+      "published": false,
+      "route": "/articles/from-nihscsed-to-control-team/ja/"
+    },
+    {
+      "file": "articles/personal/from-nihscsed-to-control-team.md",
+      "lang": "zh",
+      "published": false,
+      "route": "/articles/from-nihscsed-to-control-team/"
+    },
+    {
+      "file": "articles/personal/not-everyone-has-to-walk-the-same-road.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/not-everyone-has-to-walk-the-same-road/ja/"
+    },
+    {
+      "file": "articles/personal/not-everyone-has-to-walk-the-same-road.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/not-everyone-has-to-walk-the-same-road/"
+    },
+    {
+      "file": "articles/personal/prologue-the-people-i-met-along-the-way.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/prologue-the-people-i-met-along-the-way/ja/"
+    },
+    {
+      "file": "articles/personal/prologue-the-people-i-met-along-the-way.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/prologue-the-people-i-met-along-the-way/"
+    },
+    {
+      "file": "articles/personal/ten-years-from-now-dont-forget-who-you-are-now.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/ten-years-from-now-dont-forget-who-you-are-now/ja/"
+    },
+    {
+      "file": "articles/personal/ten-years-from-now-dont-forget-who-you-are-now.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/ten-years-from-now-dont-forget-who-you-are-now/"
+    },
+    {
+      "file": "articles/personal/why-i-still-use-codex.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/why-i-still-use-codex/ja/"
+    },
+    {
+      "file": "articles/personal/why-i-still-use-codex.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/why-i-still-use-codex/"
+    },
+    {
+      "file": "articles/projects/recent-projects-and-life-update.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/recent-projects-and-life-update/"
+    },
+    {
+      "file": "articles/research/infosec-taiwan-2026-student-industry-gap.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/infosec-taiwan-2026-student-industry-gap/en/"
+    },
+    {
+      "file": "articles/research/infosec-taiwan-2026-student-industry-gap.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/infosec-taiwan-2026-student-industry-gap/ja/"
+    },
+    {
+      "file": "articles/research/infosec-taiwan-2026-student-industry-gap.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/infosec-taiwan-2026-student-industry-gap/"
+    },
+    {
+      "file": "articles/research/nurse-made-me-rethink-medical-cybersecurity.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/nurse-made-me-rethink-medical-cybersecurity/en/"
+    },
+    {
+      "file": "articles/research/nurse-made-me-rethink-medical-cybersecurity.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/nurse-made-me-rethink-medical-cybersecurity/ja/"
+    },
+    {
+      "file": "articles/research/nurse-made-me-rethink-medical-cybersecurity.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/nurse-made-me-rethink-medical-cybersecurity/"
+    },
+    {
+      "file": "articles/research/taiwan-student-cybersecurity-growing-apart.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/taiwan-student-cybersecurity-growing-apart/en/"
+    },
+    {
+      "file": "articles/research/taiwan-student-cybersecurity-growing-apart.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/taiwan-student-cybersecurity-growing-apart/ja/"
+    },
+    {
+      "file": "articles/research/taiwan-student-cybersecurity-growing-apart.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/taiwan-student-cybersecurity-growing-apart/"
+    },
+    {
+      "file": "articles/security/2026-security-conference.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/2026-security-conference/en/"
+    },
+    {
+      "file": "articles/security/2026-security-conference.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/2026-security-conference/ja/"
+    },
+    {
+      "file": "articles/security/2026-security-conference.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/2026-security-conference/"
+    },
+    {
+      "file": "articles/security/retail-work-sme-security-culture.en.md",
+      "lang": "en",
+      "published": true,
+      "route": "/articles/retail-work-sme-security-culture/en/"
+    },
+    {
+      "file": "articles/security/retail-work-sme-security-culture.ja.md",
+      "lang": "ja",
+      "published": true,
+      "route": "/articles/retail-work-sme-security-culture/ja/"
+    },
+    {
+      "file": "articles/security/retail-work-sme-security-culture.md",
+      "lang": "zh",
+      "published": true,
+      "route": "/articles/retail-work-sme-security-culture/"
+    }
+  ],
+  "counts": {
+    "current": {
+      "zh": {
+        "retained": 12,
+        "public": 11
+      },
+      "en": {
+        "retained": 6,
+        "public": 5
+      },
+      "ja": {
+        "retained": 10,
+        "public": 9
+      }
+    },
+    "preSplitSnapshot": {
+      "zh": {
+        "retained": 13,
+        "public": 11
+      },
+      "en": {
+        "retained": 7,
+        "public": 5
+      },
+      "ja": {
+        "retained": 11,
+        "public": 9
+      }
+    },
+    "committed": {
+      "zh": {
+        "retained": 13,
+        "public": 12
+      },
+      "en": {
+        "retained": 7,
+        "public": 6
+      },
+      "ja": {
+        "retained": 11,
+        "public": 10
+      }
+    }
+  }
+}

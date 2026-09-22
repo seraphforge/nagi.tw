@@ -1,0 +1,149 @@
+---
+import type { PreviewGroup } from '../lib/previews';
+import { formatDate, languageLabel } from '../lib/previews';
+
+interface Props {
+  groups: PreviewGroup[];
+}
+
+const { groups } = Astro.props;
+const languageTags = { zh: 'zh-TW', en: 'en', ja: 'ja' } as const;
+---
+
+<div class="article-index" id="article-list">
+  {groups.map((group) => (
+    <div class="article-group" data-article-group data-language-group data-topic={group.topic} data-group-key={group.key}>
+    {group.availableLanguages.map((language) => {
+      const article = group.variants[language]!;
+      const defaultLanguage = group.variants.zh ? 'zh' : group.availableLanguages[0];
+      return (
+    <article
+      class="article-row"
+      data-article
+      data-language-variant={article.language}
+      hidden={article.language !== defaultLanguage}
+    >
+      <div class="article-meta">
+        <time datetime={article.data.date.toISOString()}>{formatDate(article.data.date, article.language)}</time>
+        <span aria-hidden="true">·</span>
+        <span>{article.topic}</span>
+        <span aria-hidden="true">·</span>
+        <span data-actual-language>{languageLabel[article.language]}</span>
+      </div>
+      <h2 lang={languageTags[article.language]}>
+        <a href={article.href}>{article.data.title}</a>
+      </h2>
+      {article.data.description && <p lang={languageTags[article.language]}>{article.data.description}</p>}
+    </article>
+      );
+    })}
+    </div>
+  ))}
+</div>
+<style>
+  .index-tools {
+    display: grid;
+    grid-template-columns: minmax(16rem, 1fr) 12rem;
+    gap: 1rem;
+    align-items: end;
+    padding: 0 0 2.25rem;
+    border-top: 3px solid var(--accent);
+  }
+
+  label {
+    display: grid;
+    gap: 0.45rem;
+    color: var(--muted-readable);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  input,
+  select {
+    width: 100%;
+    min-width: 0;
+    padding: 0.72rem 0;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+    border-radius: 0;
+    background: transparent;
+    color: var(--ink);
+    font: inherit;
+    font-size: 0.92rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: none;
+  }
+
+  input:focus,
+  select:focus { border-color: var(--accent); }
+
+  .article-index { border-top: 1px solid var(--line); }
+
+  .article-row {
+    position: relative;
+    padding: clamp(1.75rem, 4vw, 3rem) 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .article-row::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--accent);
+    content: "";
+    transition: width 160ms ease;
+  }
+  .article-row:hover::before { width: clamp(2.5rem, 8vw, 6rem); }
+
+  .article-row[hidden] { display: none; }
+
+  .article-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-bottom: 0.65rem;
+    color: var(--muted-readable);
+    font-size: 0.74rem;
+    letter-spacing: 0.035em;
+    text-transform: capitalize;
+  }
+
+  h2 {
+    max-width: 56rem;
+    margin: 0;
+    font-size: clamp(1.65rem, 3.5vw, 2.7rem);
+    line-height: 1.16;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    word-break: normal;
+    overflow-wrap: anywhere;
+  }
+
+  h2 a { color: var(--ink); text-decoration: none; }
+  h2 a:hover { color: var(--accent); text-decoration: underline; }
+
+  .article-row > p {
+    max-width: 47rem;
+    margin: 0.75rem 0 0;
+    color: var(--muted-readable);
+    font-size: 0.94rem;
+  }
+
+  .empty { padding: 2rem 0; color: var(--muted-readable); }
+
+  @media (max-width: 760px) {
+    .index-tools { grid-template-columns: 1fr 1fr; }
+    .search-field { grid-column: 1 / -1; }
+  }
+
+  @media (max-width: 390px) {
+    .index-tools { grid-template-columns: 1fr; }
+    .search-field { grid-column: auto; }
+    .article-row { padding: 1.75rem 0; }
+  }
+</style>
